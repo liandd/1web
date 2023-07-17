@@ -68,10 +68,7 @@ The password is .....
 
 El Script es compilado y funciona correctamente:
 
-<video controls>
-  <source src="/assets/videos/Bandit%20Decompressor/decompressor.mp4" type="video/mp4">
-  Tu navegador no admite la reproducción de video.
-</video>
+
 
 Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
 
