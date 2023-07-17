@@ -1,7 +1,7 @@
 ---
 layout: single
-title: TCP bind shellcode
-date: 2018-11-18
+title: Bandit Decompressor
+date: 2023-02-12
 classes: wide
 header:
   teaser: /assets/images/slae32.png
