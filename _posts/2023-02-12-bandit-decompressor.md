@@ -65,8 +65,12 @@ The password is .....
 ```
 
 El Script es compilado y funciona correctamente:
-https://user-images.githubusercontent.com/114973749/218285322-b1da8470-b1fd-4a3e-818e-104c0e05f3c9.mp4
-![](/assets/videos/Bandit%20Decompressor/decompressor.mp4)
+
+<video controls>
+  <source src="/assets/videos/Bandit%20Decompressor/decompressor.mp4" type="video/mp4">
+  Tu navegador no admite la reproducción de video.
+</video>
+
 Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
 
 [https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)
