@@ -105,7 +105,7 @@ author:
   avatar           : "/assets/images/avatar.png"
   bio              : "Ingeniería en Sistemas y Telecomunicaciones CTFs player<br>Entusiasta en CiberSeguridad"
   location         : "Colombia"
-  email            : ""
+  email            : "tdetde20@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -130,7 +130,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # ""
+  youtube          : "https://www.youtube.com/@liandd"
 
 
 # Reading Files
