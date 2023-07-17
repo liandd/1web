@@ -20,7 +20,7 @@ El Script de Decompressor hace lo siguiente:
 1. Teniendo el archivo **content.gzip**, el script leerá el último argumento del archivo adentro del comprimido.
 2. Entrará en un bucle, siempre y cuando el último argumento sea también de tipo comprimido.
 3. De ser así, seguirá descomprimiéndose hasta que ya no quede un archivo de tipo comprimido.
-4. Decompressor sabra cuando el ultimo argumento no sea un archivo comprimido, asi que aplica un /bin/cat al archivo resultante.
+4. Decompressor sabra cuando el ultimo argumento no sea un archivo comprimido, asi que aplica un `/bin/cat` al archivo resultante.
 5. Decompressor ayuda a acceder al contenido mucho mas rapido que si lo hicieramos descomprimiendo archivo por archivo.
 ### Codigo del Script
 ---------------
