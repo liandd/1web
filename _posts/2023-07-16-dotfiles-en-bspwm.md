@@ -235,9 +235,8 @@ Custom move/resize
    -     touch ~/.config/bspwm/scripts/bspwm_resize
    -     chmod +x ~/.config/bspwm/scripts/bspwm_resize
 
-   Mediante la siguiente configuración podremos en el futuro controlar las dimensiones y
-   modificarlas con atajos de teclado:
-
+> Mediante la siguiente configuración podremos en el futuro controlar las dimensiones y modificarlas con atajos de teclado:
+## Archivo Bspwm_resize
 ```
 #!/usr/bin/env dash
 
