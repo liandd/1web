@@ -83,9 +83,10 @@ Cambiar nombre de la terminal kitty
 
 La guia de instalacion sera la siguiente:
 
-1. Instalamos los siguientes paquetes:
-
-   -     apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+## 1. Instalamos los siguientes paquetes:
+```
+liann@nk:~$
+└──╼apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
 
 2. Instalamos bspwm y sxhkd:
 
