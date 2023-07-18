@@ -29,7 +29,7 @@ Para este entorno utilizo el gestor de ventanas bspwm, que se basa en el concept
 
 He configurado atajos de teclado optimizados para agilizar el flujo de trabajo, y se asignan comandos a combinaciones de teclas para realizar acciones rápidas y sencillas.
 > Estas son las especificaciones de mi sistema operativo:
-```
+```bash
 liann@nk:~$
 └──╼ $uname -a
 Linux parrot 6.1.0-1parrot1-amd64 #1 SMP PREEMPT_DYNAMIC Parrot 6.1.15-1parrot1 (2023-04-25) x86_64 GNU/Linux
