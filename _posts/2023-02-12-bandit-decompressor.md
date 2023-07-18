@@ -27,13 +27,12 @@ El Script de Decompressor hace lo siguiente:
 8. El uso de' grep `"Name" -A 2`, significa que grep buscará un patron en el stdout del comando `7z l al archivo content.gzip` y lo mostrara en pantalla.
 9. Al hacer uso de `tail -n 1`, grep solo mostrara la ultima coincidencia con el patron "Name".
 10. El comando `awk 'NF{print NF}'` Esto nos permite obtener únicamente el nombre del archivo descomprimido.
-
 Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_decompressed`.
----------------
 
-testtttttttt
+
+------------
 > Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos grep, tail, awk y sus parámetros
-
+------------
 
 ### Codigo del Script
 
