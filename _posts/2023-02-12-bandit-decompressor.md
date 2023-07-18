@@ -30,8 +30,9 @@ El Script de Decompressor hace lo siguiente:
 
 Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_decompressed`.
 
-> Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos grep, tail, awk y sus parámetros
 ---------------
+> Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos grep, tail, awk y sus parámetros
+
 
 ### Codigo del Script
 
