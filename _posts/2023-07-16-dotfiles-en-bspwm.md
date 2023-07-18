@@ -461,15 +461,14 @@ Reiniciamos el sistema y una vez arrancado, incorporamos en el archivo `'bspwmrc
     xsetroot -cursor_name left_ptr &
 ```
 ## Instalamos la powerlevel10k en zsh
-
-Creamos enlace simbólico de la zshrc para root
+> Creamos enlace simbólico de la zshrc para root
 
 ## Cambiamos el tipo de shell por defecto tanto para root como para el usuario con bajos privilegios
 ```
     usermod --shell /usr/bin/zsh tuUsuario
     usermod --shell /usr/bin/zsh root
 ```
-## Retocamos el archivo .p10k.zsh para adecuarlo a nuestro gusto
+Retocamos el archivo .p10k.zsh para adecuarlo a nuestro gusto
 
 > Para el de root, podemos ir a `'POWERLEVEL9K_CONTEXT_ROOT_TEMPLATE'` para asignar el **Hashtag**.
 
