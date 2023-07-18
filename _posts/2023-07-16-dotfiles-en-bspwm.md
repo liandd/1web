@@ -176,7 +176,6 @@ focus/swap
     super + {_,shift + }{Left,Down,Up,Right}
         bspc node -{f,s} {west,south,north,east}
 
-
 focus the node for the given path jump
     super + {p,b,comma,period}
         bspc node -f @{parent,brother,first,second}
@@ -236,15 +235,19 @@ Custom move/resize
        /home/{usuario}/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 ```
 
-5. Creamos el archivo bspwm_resize:
-
-   -     mkdir ~/.config/bspwm/scripts/
-   -     touch ~/.config/bspwm/scripts/bspwm_resize
-   -     chmod +x ~/.config/bspwm/scripts/bspwm_resize
-
-> Mediante la siguiente configuración podremos en el futuro controlar las dimensiones y modificarlas con atajos de teclado:
-## Archivo Bspwm_resize
+## Creamos el archivo bspwm_resize
+```bash
+liann@nk:~$     
+└──╼   mkdir ~/.config/bspwm/scripts/
+liann@nk:~$     
+└──╼   touch ~/.config/bspwm/scripts/bspwm_resize
+liann@nk:~$     
+└──╼   chmod +x ~/.config/bspwm/scripts/bspwm_resize
 ```
+> Mediante la siguiente configuración podremos en el futuro controlar las dimensiones y modificarlas con atajos de teclado:
+
+## Archivo Bspwm_resize
+```bash
 #!/usr/bin/env dash
 
     if bspc query -N -n focused.floating > /dev/null; then
