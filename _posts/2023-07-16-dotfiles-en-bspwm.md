@@ -43,6 +43,7 @@ Codename:	n/a
 liann@nk:~$
 └──╼ $
 ```
+
 ## Atajos de Teclado
 ```
 Abrir terminal
