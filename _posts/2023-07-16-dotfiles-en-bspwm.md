@@ -87,12 +87,13 @@ Cambiar nombre de la terminal kitty
 
 ## Instalamos los siguientes paquetes
 ```
+1. Instalamos los siguientes paquetes
 liann@nk:~$
 └──╼apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev
     libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev
     libxcb-shape0-dev
 
-1. Instalamos bspwm y sxhkd:
+2. Instalamos bspwm y sxhkd:
 liann@nk:~$
 └──╼ cd /home/{usuario}/Descargas/
 liann@nk:~$   
@@ -114,7 +115,7 @@ liann@nk:~$
 liann@nk:~$
 └──╼ sudo apt install bspwm
 
-2. Cargamos en bspwm y sxhkd ficheros de ejemplo:
+3. Cargamos en bspwm y sxhkd ficheros de ejemplo:
 liann@nk:~$
 └──╼ mkdir ~/.config/bspwm
 liann@nk:~$   
