@@ -67,7 +67,7 @@ The password is .....
 
 El Script es compilado y funciona correctamente:
 
-
+[![Video Prueba](https://youtu.be/vwbji-yprPQ?t=3)](https://youtu.be/vwbji-yprPQ)
 
 Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
 
