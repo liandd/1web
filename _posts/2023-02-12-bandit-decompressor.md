@@ -4,7 +4,7 @@ title: Bandit Decompressor
 date: 2023-02-12
 classes: wide
 header:
-  teaser: /assets/images/slae32.png
+  teaser: /assets/images/Bandit-Decompressor/bandit.png
 categories:
   - Bandit
   - Scripts
@@ -31,12 +31,12 @@ Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_de
 
 ### Codigo del Script
 
----------------
+
 > Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos grep, tail, awk y sus parámetros:
 
 
 
-hola que tal test
+
 
 ```bash
 #!/bin/bash
