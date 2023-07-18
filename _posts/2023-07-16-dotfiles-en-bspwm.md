@@ -31,4 +31,19 @@ He configurado atajos de teclado optimizados para agilizar el flujo de trabajo, 
 
 Todos los créditos a sus respectivos desarrolladores.
 
+```
+liann@nk:~$
+└──╼ $uname -a
+Linux parrot 5.2.0-2parrot1-amd64 #1 SMP Debian 5.2.9-2parrot1 (2019-08-25) x86_64 GNU/Linux
+liann@nk:~$
+└──╼ $lsb_release -a
+No LSB modules are available.
+Distributor ID:	Parrot
+Description:	Parrot GNU/Linux 4.7
+Release:	4.7
+Codename:	n/a
+liann@nk:~$
+└──╼ $
+```
+
 Lian
