@@ -82,7 +82,8 @@ Cambiar nombre de la terminal kitty
     ctrl + alt + shift + t
 ```
 
-La guia de instalacion sera la siguiente:
+
+> La guia de instalacion sera la siguiente:
 
 ## Instalamos los siguientes paquetes
 ```
