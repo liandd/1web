@@ -307,33 +307,41 @@ liann@nk:~$
 liann@nk:~$ 
 └──╼ $sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev
 liann@nk:~$ 
-└──╼ $libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev
+└──╼ $sudo apt install libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev
 liann@nk:~$ 
-└──╼ $libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev
+└──╼ $sudo apt install libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev
 liann@nk:~$ 
-└──╼ $libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
+└──╼ $sudo apt install libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
 ```
-   Posteriormente, ejecutamos los siguientes comandos bajo el directorio ~/Descargas:
+Posteriormente, ejecutamos los siguientes comandos bajo el directorio `~/Descargas`:
 
-7.1 EN KALI, EJECUTAR UNO A UNO LOS -DEV O LA INSTALACION DE PICOM CON MESON NO FUNCIONARA, DARA ERROR
-    INFORMANDO QUE FALTAN DEPENDENCIAS.
-    SI NO, SERA DEPRECATED Y NO SERVIRA
+> EN KALI, EJECUTAR UNO A UNO LOS -DEV O LA INSTALACION DE PICOM CON MESON NO FUNCIONARA, DARA ERROR
+  INFORMANDO QUE FALTAN DEPENDENCIAS.
+  SI NO, SERA DEPRECATED Y NO SERVIRA
 
-   -     git clone https://github.com/ibhagwan/picom.git
-   -     cd picom/
-   -     git submodule update --init --recursive
-   -     meson --buildtype=release . build(DEPRECATED DO NOT USE)
-   -     meson setup --buildtype=release . build
-   -     ninja -C build
-   -     sudo ninja -C build install
+```bash
+liann@nk:~$ 
+└──╼ $git clone https://github.com/ibhagwan/picom.git
+liann@nk:~$ -     
+└──╼ $cd picom/
+liann@nk:~$      
+└──╼ $git submodule update --init --recursive
+     meson --buildtype=release . build -(DEPRECATED DO NOT USE)
+liann@nk:~$ 
+└──╼ $meson setup --buildtype=release . build
+liann@nk:~$ 
+└──╼ $ninja -C build
+liann@nk:~$ 
+└──╼ $sudo ninja -C build install
+```
+## Instalamos rofi (Posteriormente instalaremos el tema Nord para Rofi).
+```bash
+liann@nk:~$ 
+└──╼ $sudo apt install rofi
+```
+En este punto, reiniciamos el equipo y seleccionamos **bspwm** `(Probamos que los shortcuts estén funcionando correctamente)`.
 
-8. Instalamos rofi (Posteriormente instalaremos el tema Nord para Rofi):
-
-   -     sudo apt install rofi
-
-9. En este punto, reiniciamos el equipo y seleccionamos bspwm (Probamos que los shortcuts estén funcionando correctamente).
-
-10. Configuramos un poco la terminal e instalamos las Hack Nerd Fonts, además del Firefox (hay que descargarse la última versión,
+> Configuramos un poco la terminal e instalamos las `Hack Nerd Fonts`, además del Firefox (hay que descargarse la última versión,
     también instalaremos firejail con 'apt install firejail con el objetivo de lanzar firefox bajo este contexto enjaulado con sxhkd). 
     [Las fuentes de Hack Nerd Fonts deben ir descomprimidas en /usr/local/share/fonts/, una vez hecho hay que ejecutar el comando 'fc-cache -v']
 
