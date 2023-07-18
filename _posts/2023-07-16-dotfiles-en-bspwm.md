@@ -28,7 +28,7 @@ Este es mi entorno de trabajo personalizado con Bspwm para máquinas con sistema
 Para este entorno utilizo el gestor de ventanas bspwm, que se basa en el concepto de **"ventanas flotantes"**. Es altamente personalizable, lo que me permite organizar y controlar las ventanas de forma efectiva.
 
 He configurado atajos de teclado optimizados para agilizar el flujo de trabajo, y se asignan comandos a combinaciones de teclas para realizar acciones rápidas y sencillas.
-
+> Estas son las especificaciones de mi sistema operativo:
 ```
 liann@nk:~$
 └──╼ $uname -a
@@ -124,6 +124,7 @@ La guia de instalacion sera la siguiente:
    -     cp examples/sxhkdrc ~/.config/sxhkd/
 
 4. Abrimos el sxhkdrc y configuramos el tipo de terminal así como algunos shortcuts
+
 ## Archivo Sxhkd
 ```
 terminal emulator
@@ -229,6 +230,7 @@ Custom move/resize
     alt + super + {Left,Down,Up,Right}
        /home/{usuario}/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 ```
+
 5. Creamos el archivo bspwm_resize:
 
    -     mkdir ~/.config/bspwm/scripts/
