@@ -1,14 +1,12 @@
 ---
 permalink: /about/
 layout: single
-title: "Sobre Mi"
+title: "Información Sobre Mi"
 date: 2023-02-12
 classes: wide
 description: "Informacion sobre Mi."
 author_profile: true
 ---
-
-# Información Sobre Mi
 
 ## Formación Profesional.
 
