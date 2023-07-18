@@ -1,6 +1,6 @@
 ---
 title: "Sobre Mi"
-permalink: /about/
 layout: about
+permalink: /about/
 author_profile: true
 ---
