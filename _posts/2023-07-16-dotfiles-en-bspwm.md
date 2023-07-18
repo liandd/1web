@@ -486,7 +486,7 @@ Creamos enlace simbólico de la zshrc para root
 ```
 Instalamos bat, lsd, fzf y ranger
 
-## Instalar el plugin sudo
+> Instalar el plugin sudo
 
    Incorporamos posteriormente las siguientes líneas al final del zshrc para que
    al salir de vim el cursor recupere su aspecto de linea.
@@ -505,7 +505,7 @@ Instalamos bat, lsd, fzf y ranger
    #Start with beam shape cursor on zsh startup and after every command.
    -      zle-line-init() { zle-keymap-select 'beam'}
 ```
-## Whichsystem.py, es un pequeno script que se ha hecho S4avitar en la maquina Blue de HackTheBox, todos los creditos de la creacion y por su tutorial para montar el     entorno de linux.
+> Whichsystem.py, es un pequeno script que se ha hecho S4avitar en la maquina Blue de HackTheBox, todos los creditos de la creacion y por su tutorial para montar el     entorno de linux.
 ```
      https://github.com/Akronox/WichSystem.py
 ```
