@@ -86,48 +86,48 @@ Cambiar nombre de la terminal kitty
 > La guia de instalacion sera la siguiente:
 
 ## Instalamos los siguientes paquetes
-```
+```bash
 1. Instalamos los siguientes paquetes
 liann@nk:~$
-└──╼apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev
+└──╼ $apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev
     libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev
     libxcb-shape0-dev
 
 2. Instalamos bspwm y sxhkd:
 liann@nk:~$
-└──╼ cd /home/{usuario}/Descargas/
+└──╼ $cd /home/{usuario}/Descargas/
 liann@nk:~$   
-└──╼ git clone https://github.com/baskerville/bspwm.git
+└──╼ $git clone https://github.com/baskerville/bspwm.git
 liann@nk:~$   
-└──╼ git clone https://github.com/baskerville/sxhkd.git
+└──╼ $git clone https://github.com/baskerville/sxhkd.git
 liann@nk:~$   
-└──╼ cd bspwm/
+└──╼ $cd bspwm/
 liann@nk:~$   
-└──╼ make
+└──╼ $make
 liann@nk:~$   
-└──╼ sudo make install
+└──╼ $sudo make install
 liann@nk:~$   
-└──╼ cd ../sxhkd/
+└──╼ $cd ../sxhkd/
 liann@nk:~$   
-└──╼ make
+└──╼ $make
 liann@nk:~$   
-└──╼ sudo make install
+└──╼ $sudo make install
 liann@nk:~$
-└──╼ sudo apt install bspwm
+└──╼ $sudo apt install bspwm
 
 3. Cargamos en bspwm y sxhkd ficheros de ejemplo:
 liann@nk:~$
-└──╼ mkdir ~/.config/bspwm
+└──╼ $mkdir ~/.config/bspwm
 liann@nk:~$   
-└──╼ mkdir ~/.config/sxhkd
+└──╼ $mkdir ~/.config/sxhkd
 liann@nk:~$   
-└──╼ cd /home/{usuario}/Descargas/bspwm/
+└──╼ $cd /home/{usuario}/Descargas/bspwm/
 liann@nk:~$   
-└──╼ cp examples/bspwmrc ~/.config/bspwm/
+└──╼ $cp examples/bspwmrc ~/.config/bspwm/
 liann@nk:~$   
-└──╼ chmod +x ~/.config/bspwm/bspwmrc
+└──╼ $chmod +x ~/.config/bspwm/bspwmrc
 liann@nk:~$   
-└──╼ cp examples/sxhkdrc ~/.config/sxhkd/
+└──╼ $cp examples/sxhkdrc ~/.config/sxhkd/
 ```
 Abrimos el sxhkdrc y configuramos el tipo de terminal así como algunos shortcuts
 ## Archivo Sxhkd
@@ -238,11 +238,11 @@ Custom move/resize
 ## Creamos el archivo bspwm_resize
 ```bash
 liann@nk:~$     
-└──╼   mkdir ~/.config/bspwm/scripts/
+└──╼   $mkdir ~/.config/bspwm/scripts/
 liann@nk:~$     
-└──╼   touch ~/.config/bspwm/scripts/bspwm_resize
+└──╼   $touch ~/.config/bspwm/scripts/bspwm_resize
 liann@nk:~$     
-└──╼   chmod +x ~/.config/bspwm/scripts/bspwm_resize
+└──╼   $chmod +x ~/.config/bspwm/scripts/bspwm_resize
 ```
 > Mediante la siguiente configuración podremos en el futuro controlar las dimensiones y modificarlas con atajos de teclado:
 
