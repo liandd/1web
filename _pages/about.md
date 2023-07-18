@@ -1,41 +1,7 @@
 ---
-title: "Sobre mi | Juan Garcia"
-description: "Informacion sobre Mi."
+title: "Sobre Mi"
+permalink: /about/
+layout: posts
+author_profile: true
+date: 2023-07-13
 ---
-
-# Información Sobre Mi
-
-**Formación Profesional.**
-
-![Universidad](/assets/images/about/uni.png)
-
-- Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la Universidad Católica De Pereira.
-- Participante del Grupo de Investigación y Semillero de Programación Competitiva de mi universidad.
-- Participante del Semillero de Programación Competitiva In Silicon Valley de la Universidad Tecnológica De Pereira.
-- Ganador de las elecciones para el Concejo Estudiantil Académico de mi universidad.
-
-*Toma de Posesión en el Concejo Academico*
-
-Para el Consejo Académico, los representantes son Nicolás Ceballos Brito (principal) y Juan David García Acevedo (suplente) pertenecientes al programa Ingeniería de Sistemas y Telecomunicaciones.
-
-[Enlace de referencia](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
-
-Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos para seguir creciendo tanto personal como profesionalmente y lograr los mejores resultados posibles.
-
----
-
-**Tags**: Bandit Decompressor, Bandit, Bash, Scripting
-
-**Categories**: Bandit, Scripts
-
-**Updated**: February 12, 2023
-
----
-
-[Previous](#) | [Next](/dotfiles-en-bspwm/)
-
----
-
-© 2023 Juan David Garcia Acevedo
-
-Follow: [RSS](#)
