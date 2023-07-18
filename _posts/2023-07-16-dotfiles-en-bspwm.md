@@ -342,131 +342,156 @@ liann@nk:~$
 En este punto, reiniciamos el equipo y seleccionamos **bspwm** `(Probamos que los shortcuts estén funcionando correctamente)`.
 
 > Configuramos un poco la terminal e instalamos las `Hack Nerd Fonts`, además del Firefox (hay que descargarse la última versión,
-    también instalaremos firejail con 'apt install firejail con el objetivo de lanzar firefox bajo este contexto enjaulado con sxhkd). 
-    [Las fuentes de Hack Nerd Fonts deben ir descomprimidas en /usr/local/share/fonts/, una vez hecho hay que ejecutar el comando 'fc-cache -v']
+también instalaremos `Firejail` con `apt install firejail` con el objetivo de lanzar firefox bajo este contexto enjaulado con **sxhkd**). 
+[Las fuentes de **Hack Nerd Fonts** deben ir descomprimidas en `/usr/local/share/fonts/`, una vez hecho hay que ejecutar el comando `'fc-cache -v'`]
 
-11. Instalamos el addon 'FoxyProxy' para Firefox.
+Instalamos el addon `'FoxyProxy'` para Firefox.
 
-12. Configuramos la privacidad en Firefox y el directorio de descargas principal
+Configuramos la privacidad en Firefox y el directorio de descargas principal
 
-13. Instalamos 'feh' con 'apt install feh' para poder agregar fondos de pantalla.
+Instalamos `'feh'` con `'apt install feh'` para poder agregar fondos de pantalla.
 
-14. Se agrega en el archivo bspwmrc justo al final la siguiente línea:
+> Se agrega en el archivo bspwmrc justo al final la siguiente línea:
 
-   -     feh --bg-fill /home/{usuario}/Desktop/Images/fondo.jpg
+```bash
+liann@nk:~$ 
+└──╼ $feh --bg-fill /home/{usuario}/Desktop/Images/fondo.jpg
+```
+## Para configurar nuestra Polybar, clonaremos primeramente en 'Descargas' el siguiente repositorio.
+```bash
+liann@nk:~$
+└──╼ $git clone https://github.com/VaughnValle/blue-sky.git
+```
+Posteriormente, ejecutaremos los siguientes comandos:
+```bash
+liann@nk:~$
+└──╼ $mkdir ~/.config/polybar
+liann@nk:~$
+└──╼ $cd ~/Descargas/blue-sky/polybar/
+liann@nk:~$
+└──╼ $cp * -r ~/.config/polybar
+liann@nk:~$
+└──╼ $echo '~/.config/polybar/./launch.sh' >> ~/.config/bspwm/bspwmrc
+liann@nk:~$
+└──╼ $cd fonts
+liann@nk:~$
+└──╼ $sudo cp * /usr/share/fonts/truetype/
+liann@nk:~$
+└──╼ $fc-cache -v
+```
+> Hacemos `Windows + Shift + R` para cargar la configuración y deberíamos ver la **Polybar** por arriba.
 
-15. Para configurar nuestra Polybar, clonaremos primeramente en 'Descargas' el siguiente repositorio:
+## Para configurar Picom y ajustar las transparencias además de bordeados de ventana, ejecutamos los siguientes pasos.
+```bash
+liann@nk:~$
+└──╼ $mkdir ~/.config/picom
+liann@nk:~$
+└──╼ $cd ~/.config/picom
+liann@nk:~$
+└──╼ $cp ~/Descargas/blue-sky/picom.conf .
+```
+> Editamos el archivo `picom.conf` y cambiamos `'backend = "glx"' por 'backend = "xrender"'`, comentando el de **glx**. 
+Posteriormente, comentamos todas las líneas referentes a **glx** (En algunos ordenadores al dejar el **glx** puesto se puede llegar
+a experimentar una lentitud muy molesta).
 
-   -     git clone https://github.com/VaughnValle/blue-sky.git
+Antes de recargar la configuración, hacemos un seguimiento del ratón para saber en qué ventana estamos con la siguiente instrucción en el `'bspwm'``:
+```bash
+   bspc config focus_follows_pointer true
+```
+Posteriormente, ejecutamos los siguientes comandos para aplicar los bordeados:
+```bash
+liann@nk:~$
+└──╼ $echo 'picom --experimental-backends &' >> ~/.config/bspwm/bspwmrc
+liann@nk:~$
+└──╼ $echo 'bspc config border_width 0' >> ~/.config/bspwm/bspwmrc
+```
+## Configuramos los colores de la polybar (paleta central), además de las paletas deseadas.
+```
+    Estructura de un nuevo módulo:
 
-   Posteriormente, ejecutaremos los siguientes comandos:
+    Previamente tenemos que crear una carpeta en "~/.config/bin"
 
-   -     mkdir ~/.config/polybar
-   -     cd ~/Descargas/blue-sky/polybar/
-   -     cp * -r ~/.config/polybar
-   -     echo '~/.config/polybar/./launch.sh' >> ~/.config/bspwm/bspwmrc
-   -     cd fonts
-   -     sudo cp * /usr/share/fonts/truetype/
-   -     fc-cache -v
-
-15.1 Hacemos Windows + Shift + R para cargar la configuración y deberíamos ver la Polybar por arriba.
-
-16. Para configurar Picom y ajustar las transparencias además de bordeados de ventana, ejecutamos los siguientes pasos:
-
-   -     mkdir ~/.config/picom
-   -     cd ~/.config/picom
-   -     cp ~/Descargas/blue-sky/picom.conf .
-
-   Editamos el archivo picom.conf y cambiamos 'backend = "glx"' por 'backend = "xrender"', comentando el de glx. 
-   Posteriormente, comentamos todas las líneas referentes a glx (En algunos ordenadores al dejar el glx puesto se puede llegar
-   a experimentar una lentitud muy molesta).
-
-   Antes de recargar la configuración, hacemos un seguimiento del ratón para saber en qué ventana estamos con la siguiente instrucción en el 'bspwm':
-
-   -     bspc config focus_follows_pointer true
-
-   Posteriormente, ejecutamos los siguientes comandos para aplicar los bordeados:
-
-   -     echo 'picom --experimental-backends &' >> ~/.config/bspwm/bspwmrc
-         echo 'bspc config border_width 0' >> ~/.config/bspwm/bspwmrc
-
-17. Configuramos los colores de la polybar (paleta central), además de las paletas deseadas.
-
-   Estructura de un nuevo módulo:
-
-   Previamente tenemos que crear una carpeta en "~/.config/bin"
-
-   -     [module/tumodulo]
-         type = custom/script
-         interval = 2
-         exec = ~/.config/bin/binario.sh
+    [module/tumodulo]
+        type = custom/script
+        interval = 2
+        exec = ~/.config/bin/binario.sh
 
    #Los modulos utilizados en estos dotfiles estan en la capeta bin de este repositorio
+```
+## Configuramos el tema Nord de Rofi:
+```bash
+liann@nk:~$
+└──╼ $mkdir -p ~/.config/rofi/themes
+liann@nk:~$
+└──╼ $cp ~/Descargas/blue-sky/nord.rasi ~/.config/rofi/themes
+```
+> Posteriormente con 'rofi-theme-selector' seleccionamos el tema Nord.
 
-18. Configuramos el tema Nord de Rofi:
+## Instalamos slim y slimlock
+```bash
+1. Instalamos los siguientes paquetes, no sin antes hacer una actualización:
+liann@nk:~$
+└──╼ $sudo apt update
+└──╼ $sudo apt install slim libpam0g-dev libxrandr-dev libfreetype6-dev libimlib2-dev libxft-dev
 
-   -     mkdir -p ~/.config/rofi/themes
-   -     cp ~/Descargas/blue-sky/nord.rasi ~/.config/rofi/themes
+2. Posteriormente, ejecutamos los siguientes comandos:
+liann@nk:~$
+└──╼ $cd ~/Descargas/
+liann@nk:~$
+└──╼ $git clone https://github.com/joelburget/slimlock.git
+liann@nk:~$
+└──╼ $cd slimlock/
+liann@nk:~$
+└──╼ $sudo make
+liann@nk:~$
+└──╼ $sudo make install
+liann@nk:~$
+└──╼ $cd ~/Descargas/blue-sky/slim
+liann@nk:~$
+└──╼ $sudo cp slim.conf /etc/
+liann@nk:~$
+└──╼ $sudo cp slimlock.conf /etc
+liann@nk:~$
+└──╼ $sudo cp -r default /usr/share/slim/themes
+```
+> Si queremos cambiar la imagen del panel, nos vamos a la ruta `'/usr/share/slim/themes/default'` y retocamos el archivo `'panel.png'`.
 
-   Posteriormente con 'rofi-theme-selector' seleccionamos el tema Nord.
+Reiniciamos el sistema y una vez arrancado, incorporamos en el archivo `'bspwmrc'` la siguiente línea para arreglar el cursor:
+```
+    xsetroot -cursor_name left_ptr &
+```
+## Instalamos la powerlevel10k en zsh
 
-19. Instalamos slim y slimlock
+Creamos enlace simbólico de la zshrc para root
 
-   Instalamos los siguientes paquetes, no sin antes hacer una actualización:
+## Cambiamos el tipo de shell por defecto tanto para root como para el usuario con bajos privilegios
+```
+    usermod --shell /usr/bin/zsh tuUsuario
+    usermod --shell /usr/bin/zsh root
+```
+## Retocamos el archivo .p10k.zsh para adecuarlo a nuestro gusto
 
-   -     sudo apt update
-   -     sudo apt install slim libpam0g-dev libxrandr-dev libfreetype6-dev libimlib2-dev libxft-dev
-
-   Posteriormente, ejecutamos los siguientes comandos:
-
-   -     cd ~/Descargas/
-   -     git clone https://github.com/joelburget/slimlock.git
-   -     cd slimlock/
-   -     sudo make
-   -     sudo make install
-   -     cd ~/Descargas/blue-sky/slim
-   -     sudo cp slim.conf /etc/
-   -     sudo cp slimlock.conf /etc
-   -     sudo cp -r default /usr/share/slim/themes
-
-   Si queremos cambiar la imagen del panel, nos vamos a la ruta '/usr/share/slim/themes/default' y retocamos el archivo 'panel.png'.
-
-20. Reiniciamos el sistema y una vez arrancado, incorporamos en el archivo 'bspwmrc' la siguiente línea para arreglar el cursor:
-
-   -     xsetroot -cursor_name left_ptr &
-
-21. Instalamos la powerlevel10k en zsh
-
-22. Creamos enlace simbólico de la zshrc para root
-
-23. Cambiamos el tipo de shell por defecto tanto para root como para el usuario con bajos privilegios
-
-   -     usermod --shell /usr/bin/zsh tuUsuario
-   -     usermod --shell /usr/bin/zsh root
-
-24. Retocamos el archivo .p10k.zsh para adecuarlo a nuestro gusto
-
-   Para el de root, podemos ir a 'POWERLEVEL9K_CONTEXT_ROOT_TEMPLATE' para asignar el Hashtag.
+> Para el de root, podemos ir a `'POWERLEVEL9K_CONTEXT_ROOT_TEMPLATE'` para asignar el **Hashtag**.
 
    Comentamos la siguiente línea:
-
-   -     POWERLEVEL9K_CONTEXT_PREFIX='%246Fwith '
-
+```
+    POWERLEVEL9K_CONTEXT_PREFIX='%246Fwith '
+```
    Para evitar un pequeño problema de permisos a la hora de desde el usuario root migrar con 'su' al usuario con bajos privilegios,
    ejecutamos los siguientes comandos:
+```bash
+    chown {usuario}:{usuario} /root
+    chown {usuario}:{usuario} /root/.cache -R
+    chown {usuario}:{usuario} /root/.local -R
+```
+Instalamos bat, lsd, fzf y ranger
 
-   -     chown {usuario}:{usuario} /root
-         chown {usuario}:{usuario} /root/.cache -R
-         chown {usuario}:{usuario} /root/.local -R
-
-25. Instalamos bat, lsd, fzf y ranger
-
-26. Instalar el plugin sudo
+## Instalar el plugin sudo
 
    Incorporamos posteriormente las siguientes líneas al final del zshrc para que
    al salir de vim el cursor recupere su aspecto de linea.
 
-```
+```bash
    Change cursor shape for different vi modes.
           function zle-keymap-select {
           if [[ $KEYMAP == vicmd ]] || [[ $1 = 'block' ]]; then
@@ -477,15 +502,15 @@ En este punto, reiniciamos el equipo y seleccionamos **bspwm** `(Probamos que lo
          }
          zle -N zle-keymap-select
 
-   Start with beam shape cursor on zsh startup and after every command.
+   #Start with beam shape cursor on zsh startup and after every command.
    -      zle-line-init() { zle-keymap-select 'beam'}
 ```
-27. Whichsystem.py, es un pequeno script que se ha hecho S4avitar en la maquina Blue de HackTheBox, todos los creditos de la creacion y por su tutorial para montar el     entorno de linux.
+## Whichsystem.py, es un pequeno script que se ha hecho S4avitar en la maquina Blue de HackTheBox, todos los creditos de la creacion y por su tutorial para montar el     entorno de linux.
 
    -     https://github.com/Akronox/WichSystem.py
 
-28. fastTCPScan.go, es la herramienta creada por S4avitar, todos los creditos de esta herramienta para el.
-    Con fastTCPScan podremos hacer descubrimiento de puertos TCP.
+## fastTCPScan.go, es la herramienta creada por S4avitar, todos los creditos de esta herramienta para el.
+> Con fastTCPScan podremos hacer descubrimiento de puertos TCP.
 
 Todos los créditos a sus respectivos desarrolladores.
  
