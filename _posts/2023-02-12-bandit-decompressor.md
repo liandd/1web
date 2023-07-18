@@ -29,12 +29,12 @@ El Script de Decompressor hace lo siguiente:
 10. El comando `awk 'NF{print NF}'` Esto nos permite obtener únicamente el nombre del archivo descomprimido.
 Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_decompressed`.
 
-
+### Codigo del Script
 ---
 > Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos grep, tail, awk y sus parámetros
 ---
 
-### Codigo del Script
+
 
 
 ```bash
