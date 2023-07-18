@@ -81,8 +81,6 @@ Multiventanas kitty
 Cambiar nombre de la terminal kitty
     ctrl + alt + shift + t
 ```
-
-
 > La guia de instalacion sera la siguiente:
 
 ## Instalamos los siguientes paquetes
@@ -130,7 +128,7 @@ liann@nk:~$
 └──╼ $cp examples/sxhkdrc ~/.config/sxhkd/
 ```
 Abrimos el sxhkdrc y configuramos el tipo de terminal así como algunos shortcuts
-## Archivo Sxhkd
+## Archivo Sxhkdrc
 ```
 terminal emulator
     super + Return
@@ -238,11 +236,11 @@ Custom move/resize
 ## Creamos el archivo bspwm_resize
 ```bash
 liann@nk:~$     
-└──╼   $mkdir ~/.config/bspwm/scripts/
+└──╼ $mkdir ~/.config/bspwm/scripts/
 liann@nk:~$     
-└──╼   $touch ~/.config/bspwm/scripts/bspwm_resize
+└──╼ $touch ~/.config/bspwm/scripts/bspwm_resize
 liann@nk:~$     
-└──╼   $chmod +x ~/.config/bspwm/scripts/bspwm_resize
+└──╼ $chmod +x ~/.config/bspwm/scripts/bspwm_resize
 ```
 > Mediante la siguiente configuración podremos en el futuro controlar las dimensiones y modificarlas con atajos de teclado:
 
@@ -266,32 +264,52 @@ liann@nk:~$
     bspc node -z "$dir" "$x" "$y" || bspc node -z "$falldir" "$x" "$y"
 ```
 
-6. Instalamos Polybar. Pero antes, instalamos primero los siguientes paquetes
+## Instalamos los siguientes paquetes para Instalar Polybar.
+> Pero antes, instalamos primero los siguientes paquetes:
+```bash
+liann@nk:~$
+└──╼ $sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev
+     libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto 
+     libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev
+     libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev
+     libcurl4-openssl-dev libnl-genl-3-dev
+liann@nk:~$
+└──╼ $sudo apt install libuv1-dev
+```
+> Para instalar la Polybar:
+```bash
+liann@nk:~$  
+└──╼ $cd /home/{usuario}/Descargas/
+liann@nk:~$
+└──╼ $git clone --recursive https://github.com/polybar/polybar
+liann@nk:~$
+└──╼ $cd polybar/
+liann@nk:~$
+└──╼ $mkdir build
+liann@nk:~$
+└──╼ $cd build/
+liann@nk:~$
+└──╼ $cmake ..
+liann@nk:~$
+└──╼ $make -j $(nproc)
+liann@nk:~$
+└──╼ $sudo make install
+```
+## Instalamos Picom para ajustar las transparencias.
+> Primeramente, instalamos los siguientes paquetes, no sin antes actualizar el sistema:
 
-   -     sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev libxcb-util0-dev libxcb-randr0-dev libxcb-composite0-dev python3-xcbgen xcb-proto libxcb-image0-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-xkb-dev libxcb-xrm-dev libxcb-cursor-dev libasound2-dev libpulse-dev libjsoncpp-dev libmpdclient-dev libcurl4-openssl-dev libnl-genl-3-dev
-6.1. Instalar libuv1-dev
-   -     sudo apt install libuv1-dev
-   Para instalar la Polybar:
-   
-   -     cd /home/{usuario}/Descargas/
-   -     git clone --recursive https://github.com/polybar/polybar
-   -     cd polybar/
-   -     mkdir build
-   -     cd build/
-   -     cmake ..
-   -     make -j $(nproc)
-   -     sudo make install
-
-7. Instalamos Picom para ajustar las transparencias.
-
-   Primeramente, instalamos los siguientes paquetes, no sin antes actualizar el sistema:
-
-   -     sudo apt update
-         sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev
-         libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev
-         libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev
-         libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
-
+```bash
+liann@nk:~$ 
+└──╼ $sudo apt update
+liann@nk:~$ 
+└──╼ $sudo apt install meson libxext-dev libxcb1-dev libxcb-damage0-dev libxcb-xfixes0-dev libxcb-shape0-dev
+liann@nk:~$ 
+└──╼ $libxcb-render-util0-dev libxcb-render0-dev libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev
+liann@nk:~$ 
+└──╼ $libxcb-present-dev libxcb-xinerama0-dev libpixman-1-dev libdbus-1-dev libconfig-dev libgl1-mesa-dev
+liann@nk:~$ 
+└──╼ $libpcre2-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev libxcb-glx0-dev
+```
    Posteriormente, ejecutamos los siguientes comandos bajo el directorio ~/Descargas:
 
 7.1 EN KALI, EJECUTAR UNO A UNO LOS -DEV O LA INSTALACION DE PICOM CON MESON NO FUNCIONARA, DARA ERROR
