@@ -127,6 +127,7 @@ liann@nk:~$
 liann@nk:~$   
 └──╼ $cp examples/sxhkdrc ~/.config/sxhkd/
 ```
+
 Abrimos el sxhkdrc y configuramos el tipo de terminal así como algunos shortcuts
 ## Archivo Sxhkdrc
 ```
@@ -266,6 +267,7 @@ liann@nk:~$
 
 ## Instalamos los siguientes paquetes para Instalar Polybar.
 > Pero antes, instalamos primero los siguientes paquetes:
+
 ```bash
 liann@nk:~$
 └──╼ $sudo apt install cmake cmake-data pkg-config python3-sphinx libcairo2-dev libxcb1-dev
@@ -277,6 +279,7 @@ liann@nk:~$
 └──╼ $sudo apt install libuv1-dev
 ```
 > Para instalar la Polybar:
+
 ```bash
 liann@nk:~$  
 └──╼ $cd /home/{usuario}/Descargas/
