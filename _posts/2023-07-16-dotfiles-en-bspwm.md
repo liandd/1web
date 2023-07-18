@@ -506,6 +506,7 @@ Instalamos bat, lsd, fzf y ranger
    -      zle-line-init() { zle-keymap-select 'beam'}
 ```
 > Whichsystem.py, es un pequeno script que se ha hecho S4avitar en la maquina Blue de HackTheBox, todos los creditos de la creacion y por su tutorial para montar el     entorno de linux.
+
 ```
      https://github.com/Akronox/WichSystem.py
 ```
