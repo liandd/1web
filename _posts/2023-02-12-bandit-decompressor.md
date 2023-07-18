@@ -72,7 +72,9 @@ The password is .....
 ```
 
 El Script es compilado y funciona correctamente:
+
 ![](/assets/images/Bandit-Decompressor/result.png)
+
 Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
 
 [https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)
