@@ -32,14 +32,14 @@ He configurado atajos de teclado optimizados para agilizar el flujo de trabajo, 
 ```
 liann@nk:~$
 └──╼ $uname -a
-Linux parrot 5.2.0-2parrot1-amd64 #1 SMP Debian 5.2.9-2parrot1 (2019-08-25) x86_64 GNU/Linux
+Linux parrot 6.1.0-1parrot1-amd64 #1 SMP PREEMPT_DYNAMIC Parrot 6.1.15-1parrot1 (2023-04-25) x86_64 GNU/Linux
 liann@nk:~$
 └──╼ $lsb_release -a
 No LSB modules are available.
 Distributor ID:	Parrot
-Description:	Parrot GNU/Linux 4.7
-Release:	4.7
-Codename:	n/a
+Description:	Parrot OS 5.3 (Electro Ara)
+Release:	5.3
+Codename:	ara
 liann@nk:~$
 └──╼ $
 ```
@@ -84,49 +84,50 @@ Cambiar nombre de la terminal kitty
 
 La guia de instalacion sera la siguiente:
 
-## 1. Instalamos los siguientes paquetes:
+## Instalamos los siguientes paquetes
 ```
 liann@nk:~$
-└──╼apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev
+└──╼apt install build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev
+    libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev
+    libxcb-shape0-dev
 
-2. Instalamos bspwm y sxhkd:
+1. Instalamos bspwm y sxhkd:
+liann@nk:~$
+└──╼ cd /home/{usuario}/Descargas/
+liann@nk:~$   
+└──╼ git clone https://github.com/baskerville/bspwm.git
+liann@nk:~$   
+└──╼ git clone https://github.com/baskerville/sxhkd.git
+liann@nk:~$   
+└──╼ cd bspwm/
+liann@nk:~$   
+└──╼ make
+liann@nk:~$   
+└──╼ sudo make install
+liann@nk:~$   
+└──╼ cd ../sxhkd/
+liann@nk:~$   
+└──╼ make
+liann@nk:~$   
+└──╼ sudo make install
+liann@nk:~$
+└──╼ sudo apt install bspwm
 
-   -     cd /home/{usuario}/Descargas/
-   
-   -     git clone https://github.com/baskerville/bspwm.git
-   
-   -     git clone https://github.com/baskerville/sxhkd.git
-   
-   -     cd bspwm/
-   
-   -     make
-   
-   -     sudo make install
-   
-   -     cd ../sxhkd/
-   
-   -     make
-   
-   -     sudo make install
-
-   -     sudo apt install bspwm
-
-3. Cargamos en bspwm y sxhkd ficheros de ejemplo:
-
-   -     mkdir ~/.config/bspwm
-   
-   -     mkdir ~/.config/sxhkd
-   
-   -     cd /home/{usuario}/Descargas/bspwm/
-   
-   -     cp examples/bspwmrc ~/.config/bspwm/
-   
-   -     chmod +x ~/.config/bspwm/bspwmrc
-   
-   -     cp examples/sxhkdrc ~/.config/sxhkd/
-
-4. Abrimos el sxhkdrc y configuramos el tipo de terminal así como algunos shortcuts
-
+2. Cargamos en bspwm y sxhkd ficheros de ejemplo:
+liann@nk:~$
+└──╼ mkdir ~/.config/bspwm
+liann@nk:~$   
+└──╼ mkdir ~/.config/sxhkd
+liann@nk:~$   
+└──╼ cd /home/{usuario}/Descargas/bspwm/
+liann@nk:~$   
+└──╼ cp examples/bspwmrc ~/.config/bspwm/
+liann@nk:~$   
+└──╼ chmod +x ~/.config/bspwm/bspwmrc
+liann@nk:~$   
+└──╼ cp examples/sxhkdrc ~/.config/sxhkd/
+```
+Abrimos el sxhkdrc y configuramos el tipo de terminal así como algunos shortcuts
 ## Archivo Sxhkd
 ```
 terminal emulator
