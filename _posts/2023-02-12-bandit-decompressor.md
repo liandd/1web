@@ -61,13 +61,18 @@ Para usar correctamente Decompressor, al estar en el bandit14, hay que cambiar e
 
 Para conseguir el **content.gzip**, hacemos lo siguiente:
 ```
-liann@nk:~/bandit14$ ls
+liann@nk:~/bandit14$ 
+└──╼ ls
 data.hex
-liann@nk:~/bandit14$ xxd -r data.hex > data
-liann@nk:~/bandit14$ file data
+liann@nk:~/bandit14$
+└──╼  xxd -r data.hex > data
+liann@nk:~/bandit14$ 
+└──╼ file data
 data: gzip compressed data, was 'data2.bin' .......
-liann@nk:~/bandit14$ mv data content.gzip
-liann@nk:~/bandit14$ ./decompressor content.gzip
+liann@nk:~/bandit14$ 
+└──╼ mv data content.gzip
+liann@nk:~/bandit14$ 
+└──╼ ./decompressor content.gzip
 The password is .....
 ```
 
