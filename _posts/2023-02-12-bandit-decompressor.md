@@ -4,7 +4,7 @@ title: Bandit Decompressor
 date: 2023-02-12
 classes: wide
 header:
-  teaser: /assets/images/Bandit-Decompressor/bandit.png
+  teaser: /assets/images/Bandit-Decompressor/decompressor.png
   teaser_home_page: true
 categories:
   - Bandit
