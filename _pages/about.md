@@ -20,7 +20,7 @@ donde he desarrollado mis habilidades con la lógica de programación, trabajo e
 He participado en diversas competencias de índole nacional con invitados de las universidades de México y Argentina.
 
 ## Toma de Posesion en el Concejo Academico.
-## {{ "2023-06-23" | date: "%B %d, %Y" }}
+ {{ "2023-06-23" | date: "%B %d, %Y" }}
 
 🗳️ Durante mi formación gané las elecciones para el `Concejo Estudiantil Académico` de mi universidad.
 > Para el Consejo Académico, los representantes son `Nicolás Ceballos Brito (principal)` y `Juan David García Acevedo (suplente)` pertenecientes al programa Ingeniería de Sistemas y Telecomunicaciones
