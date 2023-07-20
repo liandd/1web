@@ -22,6 +22,10 @@ He participado en diversas competencias de índole nacional con invitados de las
 🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos
 para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 ## Toma de Posesion en el Concejo Academico.
+<svg class="svg-inline--fa fa-calendar fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="calendar" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+  <path fill="currentColor" d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"></path>
+</svg> <time datetime="2023-02-12T00:00:00+00:00">June 6, 2023</time>&emsp;
+
 🗓️ {{ "2023-06-23" | date: "%B %d, %Y" }}
 
 🗳️ Durante mi formación gané las elecciones para el `Concejo Estudiantil Académico` de mi universidad.
@@ -70,19 +74,19 @@ Estas son las certificaciones que actualmente dispongo:
 
 [https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer](https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer)
 
-- Lenguaje C de Cero a Experto (Udemy)
+- Lenguaje C de Cero a Experto [(Udemy)](https://www.udemy.com/certificate/UC-50038724-5d1a-40a6-9d7e-4ca5e59e0df2/)
 
 <div style="text-align: center;">
   <img src="/assets/images/about/C.jpg" alt="c" width="400">
 </div>
 
-- Lenguaje C++ de Cero a Experto (Udemy)
+- Lenguaje C++ de Cero a Experto [(Udemy)](https://www.udemy.com/certificate/UC-e71e0079-b6d1-427a-bd5e-4dcb59fe1e76/)
 
 <div style="text-align: center;">
   <img src="/assets/images/about/c++.jpg" alt="c++" width="400">
 </div>
 
-- Python para Principiantes [Udemy](https://www.udemy.com/certificate/UC-8ecb439e-b172-4216-89f7-57bbad939ab2/)
+- Python para Principiantes [(Udemy)](https://www.udemy.com/certificate/UC-8ecb439e-b172-4216-89f7-57bbad939ab2/)
 
 <div style="text-align: center;">
   <img src="/assets/images/about/python_principiantes.jpg" alt="py" width="400">
@@ -90,6 +94,6 @@ Estas son las certificaciones que actualmente dispongo:
 
 
 -----
-Esta publicacion ha sido creada como soporte en mi estancia de estudiante en la Universidad Catolica de Pereira.
+Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
 
 Juan David Garcia Acevedo 
