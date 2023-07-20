@@ -32,43 +32,51 @@ He participado en diversas competencias de índole nacional con invitados de las
 ## Participaciones 
 - ACMESKILLS 2019
 > ACMESKILLS es un evento académico articulado con la media y el SENA que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
+<div style="text-align: center;">
+![ACME](/assets/images/about/acmeskills.jpg){:width="400"}
+</div>
 
-![ACME](/assets/images/about/acmeskills.jpg){:width="200"}
-
-## Certificaciones y Titulos
+## Certificaciones y Títulos
 
 Estas son las certificaciones que actualmente dispongo:
 - Motivacion y Liderazgo (Servicio Nacional De Aprendizaje - SENA)
-
-![Sao](/assets/images/about/motivasao.jpg){:width="200"}
+<div style="text-align: center;">
+![Sao](/assets/images/about/motivasao.jpg){:width="400"}
+</div>
 
 - Informática Básica (Servicio Nacional De Aprendizaje - SENA)
-
-![Inf](/assets/images/about/infobasic.jpg){:width="200"}
+<div style="text-align: center;">
+![Inf](/assets/images/about/infobasic.jpg){:width="400"}
+</div>
 
 - Tecnico en Programacion de Software (Servicio Nacional De Aprendizaje - SENA)
-
-![Tecnico](/assets/images/about/tecnio.jpg){:width="200"}
+<div style="text-align: center;">
+![Tecnico](/assets/images/about/tecnio.jpg){:width="400"}
+</div>
 
 - Fortalecimiento de la Logica y el Pensamiento Matematico como Herramienta en el campo de la Tecnologia (Servicio Nacional De Aprendizaje - SENA)
-
-![Tecnico](/assets/images/about/tecnio-logica.jpg){:width="200"}
+<div style="text-align: center;">
+![Tecnico](/assets/images/about/tecnio-logica.jpg){:width="400"}
+</div>
 
 > En caso de querer validar la legitimidad de los titulos:
 
 [https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer](https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer)
 
 - Lenguaje C de Cero a Experto (Udemy)
-
-![c](/assets/images/about/C.jpg){:width="200"}
+<div style="text-align: center;">
+![c](/assets/images/about/C.jpg){:width="400"}
+</div>
 
 - Lenguaje C++ de Cero a Experto (Udemy)
-
-![c++](/assets/images/about/c++.jpg){:width="200"}
+<div style="text-align: center;">
+![c++](/assets/images/about/c++.jpg){:width="400"}
+</div>
 
 - Python para Principiantes (Udemy)
-
-![py](/assets/images/about/python_principiantes.jpg){:width="200"}
+<div style="text-align: center;">
+![py](/assets/images/about/python_principiantes.jpg){:width="400"}
+</div>
 
 🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos
 para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
