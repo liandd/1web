@@ -19,6 +19,8 @@ y obtuve la oportunidad de formar parte de igual forma del **Semillero de Progra
 donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas.
 He participado en diversas competencias de índole nacional con invitados de las universidades de México y Argentina.
 
+🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos
+para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 ## Toma de Posesion en el Concejo Academico.
 🗓️ {{ "2023-06-23" | date: "%B %d, %Y" }}
 
@@ -78,8 +80,7 @@ Estas son las certificaciones que actualmente dispongo:
 ![py](/assets/images/about/python_principiantes.jpg){:width="400"}
 </div>
 
-🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos
-para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
+
 
 Esta publicacion ha sido creada como soporte en mi estancia de estudiante en la Universidad Catolica de Pereira.
 
