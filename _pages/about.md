@@ -69,7 +69,6 @@ Estas son las certificaciones que actualmente dispongo:
 </div>
 
 > En caso de querer validar la legitimidad de los titulos:
-
 [https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer](https://certificados.sena.edu.co/CertificadoDigital/com.sena.consultacer)
 
 - Lenguaje C de Cero a Experto [(Udemy)](https://www.udemy.com/certificate/UC-50038724-5d1a-40a6-9d7e-4ca5e59e0df2/)
