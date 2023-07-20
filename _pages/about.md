@@ -82,7 +82,7 @@ Estas son las certificaciones que actualmente dispongo:
   <img src="/assets/images/about/c++.jpg" alt="c++" width="400">
 </div>
 
-- Python para Principiantes (Udemy)
+- Python para Principiantes [Udemy](https://www.udemy.com/certificate/UC-8ecb439e-b172-4216-89f7-57bbad939ab2/)
 
 <div style="text-align: center;">
   <img src="/assets/images/about/python_principiantes.jpg" alt="py" width="400">
