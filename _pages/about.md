@@ -76,10 +76,11 @@ Estas son las certificaciones que actualmente dispongo:
 </div>
 
 - Python para Principiantes (Udemy)
+```html
 <div style="text-align: center;">
-![py](/assets/images/about/python_principiantes.jpg){:width="400"}
+  <img src="/assets/images/about/python_principiantes.jpg" alt="py" width="400">
 </div>
-
+```
 
 
 Esta publicacion ha sido creada como soporte en mi estancia de estudiante en la Universidad Catolica de Pereira.
