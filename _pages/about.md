@@ -89,7 +89,7 @@ Estas son las certificaciones que actualmente dispongo:
 </div>
 
 
-
+-----
 Esta publicacion ha sido creada como soporte en mi estancia de estudiante en la Universidad Catolica de Pereira.
 
 Juan David Garcia Acevedo 
