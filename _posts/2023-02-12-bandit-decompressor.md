@@ -61,19 +61,19 @@ done
 Para usar correctamente Decompressor, al estar en el bandit14, hay que cambiar el nombre del archivo a **content.gzip**, de esta forma funcionara sin problemas.
 
 Para conseguir el **content.gzip**, hacemos lo siguiente:
-```
+```bash
 liann@nk:~/bandit14$ 
-└──╼ ls
+└──╼ $ls
 data.hex
 liann@nk:~/bandit14$
-└──╼  xxd -r data.hex > data
+└──╼  $xxd -r data.hex > data
 liann@nk:~/bandit14$ 
-└──╼ file data
+└──╼ $file data
 data: gzip compressed data, was 'data2.bin' .......
 liann@nk:~/bandit14$ 
-└──╼ mv data content.gzip
+└──╼ $mv data content.gzip
 liann@nk:~/bandit14$ 
-└──╼ ./decompressor content.gzip
+└──╼ $ ./decompressor content.gzip
 The password is .....
 ```
 
