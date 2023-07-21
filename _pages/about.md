@@ -10,7 +10,7 @@ author_profile: true
 
 ## Formación Profesional.
 
-![Universidad](/assets/images/about/uni.png){:width="2000"}
+<img src="/assets/images/about/uni.png" alt="Universidad" oncontextmenu="return false;" width="2000">
 
 🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la **Universidad Católica De Pereira**.
 
@@ -32,14 +32,14 @@ para así seguir creciendo tanto personal como profesionalmente logrando los mej
 
 [https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
 
-![Concejo](/assets/images/about/concejo.png)
+<img src="/assets/images/about/concejo.png" alt="Concejo" oncontextmenu="return false;" width="2000">
 
 ## Participaciones 
 - ACMESKILLS 2019
 > ACMESKILLS es un evento académico articulado con la media y el SENA que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/acmeskills.jpg" alt="ACME" width="400">
+  <img src="/assets/images/about/acmeskills.jpg" alt="ACME" width="400" oncontextmenu="return false;">
 </div>
 
 ## Certificaciones y Títulos
@@ -48,43 +48,43 @@ Estas son las certificaciones que actualmente dispongo:
 - Motivacion y Liderazgo (Servicio Nacional De Aprendizaje - SENA)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/motivasao.jpg" alt="Sao" width="400">
+  <img src="/assets/images/about/motivasao.jpg" alt="Sao" width="400" oncontextmenu="return false;">
 </div>
 
 - Informática Básica (Servicio Nacional De Aprendizaje - SENA)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/infobasic.jpg" alt="Info" width="400">
+  <img src="/assets/images/about/infobasic.jpg" alt="Info" width="400" oncontextmenu="return false;">
 </div>
 
 - Tecnico en Programacion de Software (Servicio Nacional De Aprendizaje - SENA)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/tecnio.jpg" alt="Tecnico" width="400">
+  <img src="/assets/images/about/tecnio.jpg" alt="Tecnico" width="400" oncontextmenu="return false;">
 </div>
 
 - Fortalecimiento de la Logica y el Pensamiento Matematico como Herramienta en el campo de la Tecnologia (Servicio Nacional De Aprendizaje - SENA)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/tecnio-logica.jpg" alt="Tecnico" width="400">
+  <img src="/assets/images/about/tecnio-logica.jpg" alt="Tecnico" width="400" oncontextmenu="return false;">
 </div>
 
 - Lenguaje C de Cero a Experto [(Udemy)](https://www.udemy.com/certificate/UC-50038724-5d1a-40a6-9d7e-4ca5e59e0df2/)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/C.jpg" alt="c" width="400">
+  <img src="/assets/images/about/C.jpg" alt="c" width="400" oncontextmenu="return false;">
 </div>
 
 - Lenguaje C++ de Cero a Experto [(Udemy)](https://www.udemy.com/certificate/UC-e71e0079-b6d1-427a-bd5e-4dcb59fe1e76/)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/c++.jpg" alt="c++" width="400">
+  <img src="/assets/images/about/c++.jpg" alt="c++" width="400" oncontextmenu="return false;">
 </div>
 
 - Python para Principiantes [(Udemy)](https://www.udemy.com/certificate/UC-8ecb439e-b172-4216-89f7-57bbad939ab2/)
 
 <div style="text-align: center;">
-  <img src="/assets/images/about/python_principiantes.jpg" alt="py" width="400">
+  <img src="/assets/images/about/python_principiantes.jpg" alt="py" width="400" oncontextmenu="return false;">
 </div>
 
 
