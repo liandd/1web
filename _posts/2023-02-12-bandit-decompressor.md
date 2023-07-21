@@ -18,7 +18,9 @@ tags:
 ---
 ## Decompressor, Herramienta para Bandit 12-13.
 
-![](/assets/images/Bandit-Decompressor/decompressor.png)
+<div style="text-align: center;">
+  <img src="/assets/images/Bandit-Decompressor/decompressor.png" alt="bandit" width="400" oncontextmenu="return false;">
+</div>
 
 Hace un tiempo he venido obteniendo soltura en Bash, y para practicar un poco scripting con bandit he terminado desarrollando un pequeño script en bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior, específicamente para bandit12, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior. Una vez descomprimido el archivo de bandit14 llamado **content.gzip**, por lo que no hay necesidad de saber si el nuevo archivo esta comprimido de nuevo y hacer el mismo proceso repetitivo.
 
@@ -79,7 +81,9 @@ The password is .....
 
 El Script es compilado y funciona correctamente:
 
-![](/assets/images/Bandit-Decompressor/result.png)
+<div style="text-align: center;">
+  <img src="/assets/images/Bandit-Decompressor/result.png" alt="bandit" width="400" oncontextmenu="return false;">
+</div>
 
 Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
 
