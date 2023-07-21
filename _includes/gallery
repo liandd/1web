@@ -33,7 +33,7 @@
           {% else %}
             "{{ img.image_path | relative_url }}"
           {% endif %}
-          alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+          alt="{% if img.alt %}{{ img.alt }}{% endif %}" oncontextmenu="return false;">
       </a>
     {% else %}
       <img src=
@@ -42,7 +42,7 @@
         {% else %}
           "{{ img.image_path | relative_url }}"
         {% endif %}
-        alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+        alt="{% if img.alt %}{{ img.alt }}{% endif %}" oncontextmenu="return false;">
     {% endif %}
   {% endfor %}
   {% if include.caption %}

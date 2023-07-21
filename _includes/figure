@@ -5,7 +5,7 @@
     {% else %}
       "{{ include.image_path | relative_url }}"
     {% endif %}
-    alt="{% if include.alt %}{{ include.alt }}{% endif %}">
+    alt="{% if include.alt %}{{ include.alt }}{% endif %}" oncontextmenu="return false;">
   {% if include.caption %}
     <figcaption>{{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}</figcaption>
   {% endif %}
