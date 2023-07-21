@@ -28,3 +28,8 @@ html {
   font-size: 16px; // global font size
 }
 
+/* Estilo para evitar que la imagen teaser se abra en una nueva pestaña */
+.archive__item-teaser img {
+  pointer-events: none;
+}
+
