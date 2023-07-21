@@ -5,7 +5,7 @@ excerpt: "Hace un tiempo he venido obteniendo soltura en Bash, y para practicar 
 date: 2023-02-12
 classes: wide
 header:
-  teaser: <img src="/assets/images/Bandit-Decompressor/bandit.png" alt="bandit" width="2000" oncontextmenu="return false;">
+  teaser: /assets/images/Bandit-Decompressor/bandit.png
   teaser_home_page: true
 categories:
   - Bandit

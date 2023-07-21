@@ -5,7 +5,7 @@ excerpt: "El proyecto de mi entorno de Bspwm es una configuración personalizada
 date: 2023-07-16
 classes: wide
 header:
-  teaser: <img src="/assets/images/Dotfiles-en-bspwm/teaser.png" alt="bandit" width="2000" oncontextmenu="return false;">
+  teaser: /assets/images/Dotfiles-en-bspwm/teaser.png
   teaser_home_page: true
 categories:
   - Dotfiles
