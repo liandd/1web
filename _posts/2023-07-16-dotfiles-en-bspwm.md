@@ -19,8 +19,6 @@ tags:
   - Dotfiles
 ---
 
-[//]: # (![](/assets/images/Bandit-Decompressor/decompressor.png))
-
 ## Configuración personal de entorno de trabajo bspwm.
 
 Este es mi entorno de trabajo personalizado con Bspwm para máquinas con sistema operativo GNU/Linux y distribuciones basadas en Debian. Está enfocado en el pentesting y tiene una configuración con atajos de teclado.
