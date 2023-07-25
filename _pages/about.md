@@ -51,7 +51,7 @@ Estas son las certificaciones que actualmente dispongo:
 
 - Python para Principiantes [(Udemy)](https://www.udemy.com/certificate/UC-8ecb439e-b172-4216-89f7-57bbad939ab2/)
 
-- Beggining Bash Scrpting [(Udemy)](https://www.udemy.com/certificate/UC-84db90c1-0812-4485-b6bd-d42ae2db3551/)
+- Beggining Bash Scrpting [(Udemy)](https://www.udemy.com/certificate/UC-13ddb258-3bc8-4154-a5eb-2537ceeded8c/)
 
 - Hacking Etico a PC's con Malware [(Udemy)](https://www.udemy.com/certificate/UC-84db90c1-0812-4485-b6bd-d42ae2db3551/)
 
