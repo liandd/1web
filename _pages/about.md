@@ -16,7 +16,7 @@ author_profile: true
 
 🎓 En estos momentos en mi etapa universitaria hago parte del Grupo de Investigación y Semillero de Programación Competitiva de mi universidad, y obtuve la oportunidad de formar parte de igual forma del Semillero de Programación Competitiva In Silicon Valley de la Universidad Tecnológica De Pereira, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional con invitados de las universidades de México y Argentina.
 
-📚 Mi enfoque personal se centra en la Seguridad Informatica, CTFs y aspiro a conseguir diferentes certificaciones del sector como eJPT, eWPT , eCPPT , OSCP.
+📚 Mi enfoque personal se centra en la Seguridad Informatica, CTFs y aspiro a conseguir diferentes certificaciones del sector como **eJPT**, **eWPT** , **eCPPT** , **OSCP**.
 
 🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 ## Toma de Posesion en el Concejo Academico.
