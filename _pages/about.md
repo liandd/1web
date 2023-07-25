@@ -27,9 +27,7 @@ author_profile: true
 > Para el Consejo Académico, los representantes son `Nicolás Ceballos Brito (principal)` y `Juan David García Acevedo (suplente)` pertenecientes al programa Ingeniería de Sistemas y Telecomunicaciones
 
 [https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
-<div style="text-align: center;">
-  <img src="/assets/images/about/concejo.png" alt="Concejo" oncontextmenu="return false;" width="1400">
-</div> 
+
 ## Participaciones 
 - ACMESKILLS 2019
 > ACMESKILLS es un evento académico articulado con la media y el SENA que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
