@@ -12,15 +12,13 @@ author_profile: true
 
 <img src="/assets/images/about/uni.png" alt="Universidad" oncontextmenu="return false;" width="2000">
 
-🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la **Universidad Católica De Pereira**.
+🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la Universidad Católica De Pereira.
 
-🎓 En estos momentos en mi etapa universitaria hago parte del **Grupo de Investigación y Semillero de Programación Competitiva** de mi universidad,
-y obtuve la oportunidad de formar parte de igual forma del **Semillero de Programación Competitiva In Silicon Valley de la Universidad Tecnológica De Pereira**,
-donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas.
-He participado en diversas competencias de índole nacional con invitados de las universidades de México y Argentina.
+🎓 En estos momentos en mi etapa universitaria hago parte del Grupo de Investigación y Semillero de Programación Competitiva de mi universidad, y obtuve la oportunidad de formar parte de igual forma del Semillero de Programación Competitiva In Silicon Valley de la Universidad Tecnológica De Pereira, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional con invitados de las universidades de México y Argentina.
 
-🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos
-para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
+📚 Mi enfoque personal se centra en la Seguridad Informatica, CTFs y aspiro a conseguir diferentes certificaciones del sector como eJPT | eWPT | eCPPT | OSCP.
+
+🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 ## Toma de Posesion en el Concejo Academico.
 <svg class="svg-inline--fa fa-calendar fa-w-14 fa-fw" aria-hidden="true" focusable="false" data-prefix="fa" data-icon="calendar" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
   <path fill="currentColor" d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"></path>
