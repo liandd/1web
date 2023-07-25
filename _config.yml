@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Juan Garcia"
-  avatar           : "/assets/images/avatar.jpg"
+  avatar           : "/assets/images/avatar.jpeg"
   bio              : "Ingeniería en Sistemas y Telecomunicaciones CTFs player<br>Entusiasta en CiberSeguridad"
   location         : "Colombia"
   email            : #""
