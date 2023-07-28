@@ -53,7 +53,7 @@ Estas son las certificaciones que actualmente dispongo:
 
 - Hacking Etico a PC's con Malware [(Udemy)](https://www.udemy.com/certificate/UC-84db90c1-0812-4485-b6bd-d42ae2db3551/)
 
------
+------
 Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
 
 Juan David Garcia Acevedo 
