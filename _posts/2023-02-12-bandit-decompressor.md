@@ -84,6 +84,7 @@ El Script es compilado y funciona correctamente:
 <div style="text-align: center;">
   <img src="/assets/images/Bandit-Decompressor/result.png" alt="bandit" width="2000" oncontextmenu="return false;">
 </div>
+---
 
 Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
 
