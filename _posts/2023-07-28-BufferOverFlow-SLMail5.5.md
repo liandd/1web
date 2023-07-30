@@ -5,7 +5,7 @@ excerpt: "En esta publicacion detallo mi practica a un Buffer OverFlow usando Py
 date: 2023-07-28
 classes: wide
 header:
-  teaser: /assets/images/BOF-SLMail/BOFF.png
+  teaser: /assets/images/BOF-SLMail/script.png
   teaser_home_page: true
 categories:
   - BOF
@@ -19,7 +19,7 @@ tags:
 ## Buffer OverFlow al Binario SLMail 5.5 
 
 <div style="text-align: center;">
-  <img src="/assets/images/BOF-SLMail/BOFF.png" alt="bof" width="2000" oncontextmenu="return false;">
+  <img src="/assets/images/BOF-SLMail/script.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
 ## Badchars
