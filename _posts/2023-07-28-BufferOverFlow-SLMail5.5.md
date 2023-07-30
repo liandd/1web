@@ -37,7 +37,7 @@ from struct import pack
 import socket, sys
 
 def exploit(ip_address, rport):
-    # Escapar el shell code con b para indicar que son bytes
+    # Escapar el shellcode con b para indicar que son bytes
     shellcode=(
         b"\ejemplo\"
     )
