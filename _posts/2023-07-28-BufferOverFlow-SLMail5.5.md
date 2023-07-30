@@ -38,7 +38,7 @@ import socket, sys
 
 def exploit(ip_address, rport):
     # Escapar el shellcode con b para indicar que son bytes
-    shellcode=(
+    shellcode= (
         b"\ejemplo\"
     )
 
@@ -74,6 +74,7 @@ El Script es compilado y funciona correctamente:
 <div style="text-align: center;">
   <img src="/assets/images/BOF-SLMail/BOFF.png" alt="resultbof" width="2000" oncontextmenu="return false;">
 </div>
+
 
 Esta publicacion ha sido creada como soporte en el aprendizaje de BufferOverFlow para la OSCP
 
