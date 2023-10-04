@@ -31,7 +31,7 @@ author_profile: true
 ## XXXVII Maratón Nacional de Programación 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">September 6, 2023</time>&emsp;
 
-🗳️ Durante mi formación gané las elecciones para el `Concejo Estudiantil Académico` de mi universidad.
+🗳️ Durante el dia 2 de septiembre hice mi participación de `XXXVII Maratón Nacional de Programación` en la ciudad de Manizales.
 
 > La Universidad Católica de Pereira participó a través de la Facultad de Ciencias Básicas e Ingeniería en la XXXVII Maratón Nacional de Programación ACIS/REDIS 2023, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
 
