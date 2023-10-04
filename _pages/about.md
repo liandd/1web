@@ -28,6 +28,17 @@ author_profile: true
 
 [https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
 
+## XXXVII Maratón Nacional de Programación 2023 Colombia.
+🗓️ <time datetime="2023-02-12T00:00:00+00:00">September 6, 2023</time>&emsp;
+
+🗳️ Durante mi formación gané las elecciones para el `Concejo Estudiantil Académico` de mi universidad.
+
+> La Universidad Católica de Pereira participó a través de la Facultad de Ciencias Básicas e Ingeniería en la XXXVII Maratón Nacional de Programación ACIS/REDIS 2023, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
+
+<img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/09/20230902_121416-1536x865.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
+
+[https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
+
 ## Participaciones 
 - ACMESKILLS 2019
 > ACMESKILLS es un evento académico articulado con la media y el SENA que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
