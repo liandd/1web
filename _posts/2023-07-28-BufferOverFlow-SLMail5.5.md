@@ -24,8 +24,8 @@ tags:
 
 ## Badchars
 
-Son necesarios para evitar conflictos al mommento de crear nuestra shellcode y que el registro ESP pueda interpretar
-nuestro codigo y proporcionarnos nuestra reverse shell, o el comando que queramos injectar en el sistema.
+Son necesarios para evitar conflictos al momento de crear nuestra shellcode y que el registro ESP pueda interpretar
+nuestro codigo y proporcionarnos nuestra reverse shell, o el comando que queramos inyectar en el sistema.
 
 ```
 "\x01\x02\x03\x04\x05\x06\x07\x08\x09\x0b\x0c\x0e\x0f\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f"
