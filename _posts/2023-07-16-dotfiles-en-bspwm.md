@@ -137,7 +137,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -show run
+	rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/polybar/shades/scripts/rofi/launcher.rasi
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -255,7 +255,7 @@ super + shift + g
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor -d I II III IV V VI VII
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -270,7 +270,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 feh --bg-fill /home/{usuario}/Descargas/fondo.png &
-~/.config/polybar/./launch.sh &
+~/.config/polybar/./launch.sh --shades &
 bspc config focus_follows_pointer true
 picom &
 wmname LG3D &
