@@ -26,9 +26,8 @@ Lo primero es configurar una maquina Windows para montar el entorno de practica,
   <img src="/assets/images/BOF-SLMail/W7.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
-```
+> 
 
-```
 Despues de instalar la maquina Windows, es muy importante que haya comunicacion entre las 2 maquinas mediante trazas **ICMP**, para lograr esta configuracion debemos ir a la configuracion avanzada de firewall de Windows y habilitar las reglas de entrada y de salida la comunicacion por iPv4 y por iPv6:
 
 <div style="text-align: center;">
