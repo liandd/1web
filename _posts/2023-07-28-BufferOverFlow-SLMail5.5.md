@@ -16,7 +16,7 @@ tags:
   - Windows 7
   - Buffer Overflow
 ---
-## Practica Buffer OverFlow con Python3
+## Firewall de Windows y reglas de Entrada/Salida - Configuracion Parte 1
 
 Lo primero es configurar una maquina Windows para montar el entorno de practica, y es importante que este bien configurado para tener comunicacion entre maquinas `(La maquina Windows con el binario vulnerable, y nuestra maquina de atacante).`
 
@@ -28,7 +28,7 @@ Lo primero es configurar una maquina Windows para montar el entorno de practica,
 
 > 
 
-Despues de instalar la maquina Windows, es muy importante que haya comunicacion entre las 2 maquinas mediante trazas **ICMP**, para lograr esta configuracion debemos ir a la configuracion avanzada de firewall de Windows y habilitar las reglas de entrada y de salida la comunicacion por iPv4 y por iPv6:
+Despues de instalar la maquina Windows, es muy importante que haya comunicacion entre las 2 maquinas mediante trazas **ICMP**, debido a que por defecto estas reglas vienen deshabilitadas, por tanto, para lograr esta configuracion debemos ir a la configuracion avanzada de firewall de Windows y habilitar las reglas de Entrada/Salida para tener la comunicacion por iPv4 y por iPv6:
 
 <div style="text-align: center;">
   <img src="/assets/images/BOF-SLMail/ReglasEntrada.png" alt="bof" width="2000" oncontextmenu="return false;">
@@ -51,6 +51,28 @@ Una vez con las reglas habilitadas probamos la comunicacion:
 > 
 
 Al enviar 4 paquetes y recibirlos confirma que hay comunicacion entre maquinas completando el primer paso para dar inicio a la practica del BufferOverflow.
+
+## Desactivar el DEP - Configuracion Parte 2
+
+Esta parte es importante, debemos abrir un simbolo del sistema como administrador y ejecutar el siguiente comando:
+
+```cmd
+bcdedit.exe /set {current} nx AlwaysOff
+```
+
+<div style="text-align: center;">
+  <img src="/assets/images/BOF-SLMail/DEP.png" alt="bof" width="2000" oncontextmenu="return false;">
+</div>
+
+>
+Estamos desactivando el *DEP* `(Data Execution Protection)`, pero para todo el sistema, tambien se puede hacer para el binario Slmail concretamente desde el apartado GUI, pero al ser una maquina virtual que su unico proposito es la practica de BufferOverflow y despues sera eliminada. La verdad es que no supone ningun problema este comando.
+
+> *Debemos reiniciar el sistema para que se apliquen los cambios* 
+
+
+## Utilidades - Configuracion Parte 3
+
+Para las utilidades se descargaran unas aplicaciones para hacer el trabajo mas comodo, por tanto, se descargara el binario al cual vamos a atacar *(Slmail_5.5 ya que es vulnerable a BOF)* la aplicacion Inmunity Debugger para monitorizar todo a bajo nivel.
 
 ## Badchars
 
