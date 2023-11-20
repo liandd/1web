@@ -101,6 +101,11 @@ Para conseguir el shellcode se puede hacer uso de la herramienta msfvenom:
 
 > El script esta hecho en python3
 
+<div style="text-align: center;">
+  <img src="/assets/images/BOF-SLMail/script.png" alt="bof" width="2000" oncontextmenu="return false;">
+</div>
+
+>
 
 ```python
 #!/usr/bin/python
