@@ -25,7 +25,6 @@ tags:
   <img src="/assets/images/Dotfiles-en-bspwm/fondo.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
-#
 
 Este es mi entorno de trabajo personalizado con Bspwm para máquinas con sistema operativo GNU/Linux y distribuciones basadas en Debian. Está enfocado en el pentesting y tiene una configuración con atajos de teclado.
 
