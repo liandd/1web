@@ -40,11 +40,15 @@ Despues de instalar la maquina Windows, es muy importante que haya comunicacion 
   <img src="/assets/images/BOF-SLMail/ReglasSalida.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
+> 
+
 Una vez con las reglas habilitadas probamos la comunicacion:
 
 <div style="text-align: center;">
   <img src="/assets/images/BOF-SLMail/PruebaPing.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
+
+> 
 
 Al enviar 4 paquetes y recibirlos confirma que hay comunicacion entre maquinas completando el primer paso para dar inicio a la practica del BufferOverflow.
 
