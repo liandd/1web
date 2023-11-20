@@ -18,9 +18,33 @@ tags:
 ---
 ## Buffer OverFlow al Binario SLMail 5.5 
 
+Lo primero es configurar una maquina Windows para montar el entorno de practica, y es importante que este bien configurado para tener comunicacion entre maquinas `(La maquina Windows con el binario vulnerable, y nuestra maquina de atacante).`
+
+> *Se usara un sistema Windows 7 de 32 bits, la version starter.*
+
 <div style="text-align: center;">
-  <img src="/assets/images/BOF-SLMail/script.png" alt="bof" width="2000" oncontextmenu="return false;">
+  <img src="/assets/images/BOF-SLMail/W7.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
+
+Despues de instalar la maquina Windows, es muy importante que haya comunicacion entre las 2 maquinas mediante trazas **ICMP**, para lograr esta configuracion debemos ir a la configuracion avanzada de firewall de Windows y habilitar las reglas de entrada y de salida la comunicacion por iPv4 y por iPv6:
+
+<div style="text-align: center;">
+  <img src="/assets/images/BOF-SLMail/ReglasEntrada.png" alt="bof" width="2000" oncontextmenu="return false;">
+</div>
+
+> En la imagen se muestran las reglas de entrada donde hay que habilitar las 4 reglas para poder recibir una comunicacion de nuestra maquina de atacante, de esta forma habra una comunicacion, por tanto hay que repetir el proceso para las reglas de salida:
+
+<div style="text-align: center;">
+  <img src="/assets/images/BOF-SLMail/reglasSalida.png" alt="bof" width="2000" oncontextmenu="return false;">
+</div>
+
+Una vez con las reglas habilitadas probamos la comunicacion:
+
+<div style="text-align: center;">
+  <img src="/assets/images/BOF-SLMail/PruebaPing.png" alt="bof" width="2000" oncontextmenu="return false;">
+</div>
+
+Al enviar 4 paquetes y recibirlos confirma que hay comunicacion entre maquinas completando el primer paso para dar inicio a la practica del BufferOverflow.
 
 ## Badchars
 
@@ -52,7 +76,7 @@ Para conseguir el shellcode se puede hacer uso de la herramienta msfvenom:
 
 ```python
 #!/usr/bin/python
-# Autor Liandd
+# Autor liandd
 from pwn import *
 from struct import pack
 import socket, sys

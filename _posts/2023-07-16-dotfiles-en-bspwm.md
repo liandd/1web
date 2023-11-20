@@ -5,7 +5,7 @@ excerpt: "El proyecto de mi entorno de Bspwm es una configuración personalizada
 date: 2023-07-16
 classes: wide
 header:
-  teaser: /assets/images/Dotfiles-en-bspwm/fond.jpeg
+  teaser: /assets/images/Dotfiles-en-bspwm/fondo.png
   teaser_home_page: true
 categories:
   - Dotfiles
@@ -20,6 +20,10 @@ tags:
 ---
 
 ## Configuración personal de entorno de trabajo bspwm.
+
+<div style="text-align: center;">
+  <img src="/assets/images/Dotfiles-en-bspwm/fondo.png" alt="bof" width="2000" oncontextmenu="return false;">
+</div>
 
 Este es mi entorno de trabajo personalizado con Bspwm para máquinas con sistema operativo GNU/Linux y distribuciones basadas en Debian. Está enfocado en el pentesting y tiene una configuración con atajos de teclado.
 
