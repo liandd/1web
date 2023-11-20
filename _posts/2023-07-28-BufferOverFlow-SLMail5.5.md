@@ -16,7 +16,7 @@ tags:
   - Windows 7
   - Buffer Overflow
 ---
-## Buffer OverFlow al Binario SLMail 5.5 
+## Practica Buffer OverFlow con Python3
 
 Lo primero es configurar una maquina Windows para montar el entorno de practica, y es importante que este bien configurado para tener comunicacion entre maquinas `(La maquina Windows con el binario vulnerable, y nuestra maquina de atacante).`
 
@@ -26,6 +26,9 @@ Lo primero es configurar una maquina Windows para montar el entorno de practica,
   <img src="/assets/images/BOF-SLMail/W7.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
+```
+
+```
 Despues de instalar la maquina Windows, es muy importante que haya comunicacion entre las 2 maquinas mediante trazas **ICMP**, para lograr esta configuracion debemos ir a la configuracion avanzada de firewall de Windows y habilitar las reglas de entrada y de salida la comunicacion por iPv4 y por iPv6:
 
 <div style="text-align: center;">
