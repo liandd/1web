@@ -25,6 +25,8 @@ tags:
   <img src="/assets/images/Dotfiles-en-bspwm/fondo.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
+#
+
 Este es mi entorno de trabajo personalizado con Bspwm para máquinas con sistema operativo GNU/Linux y distribuciones basadas en Debian. Está enfocado en el pentesting y tiene una configuración con atajos de teclado.
 
 Para este entorno utilizo el gestor de ventanas bspwm, que se basa en el concepto de **"ventanas flotantes"**. Es altamente personalizable, lo que me permite organizar y controlar las ventanas de forma efectiva.
