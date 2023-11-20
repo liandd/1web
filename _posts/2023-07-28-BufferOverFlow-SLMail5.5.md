@@ -38,7 +38,7 @@ Despues de instalar la maquina Windows, es muy importante que haya comunicacion 
 > En la imagen se muestran las reglas de entrada donde hay que habilitar las 4 reglas para poder recibir una comunicacion de nuestra maquina de atacante, de esta forma habra una comunicacion, por tanto hay que repetir el proceso para las reglas de salida:
 
 <div style="text-align: center;">
-  <img src="/assets/images/BOF-SLMail/reglasSalida.png" alt="bof" width="2000" oncontextmenu="return false;">
+  <img src="/assets/images/BOF-SLMail/ReglasSalida.png" alt="bof" width="2000" oncontextmenu="return false;">
 </div>
 
 Una vez con las reglas habilitadas probamos la comunicacion:
