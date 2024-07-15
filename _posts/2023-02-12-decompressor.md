@@ -17,21 +17,30 @@ tags:
   - Bandit Decompressor
 ---
 ## Decompressor, Herramienta para Bandit 12-13.
+**Descripción**
+
+Hace un tiempo he venido obteniendo soltura en Bash. Para practicar un poco de scripting con Bandit, he terminado desarrollando un pequeño script en Bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior. 
+
+La plataforma OTW presenta Bandit para el aprendizaje de Bash en forma de niveles, donde en el nivel 13-14 se presenta un caso en el cual hay un archivo con una cantidad enorme de comprimidos en su interior.
+
+### Presentación del Script
 
 <div style="text-align: center;">
-  <img src="/assets/images/Bandit-Decompressor/decompressor.png" alt="bandit" width="2000" oncontextmenu="return false;">
+  <img src="/assets/images/Bandit-Decompressor/decompressor.png" alt="bandit" width="1800" oncontextmenu="return false;">
 </div>
 
-Hace un tiempo he venido obteniendo soltura en Bash. Para practicar un poco de scripting con Bandit, he terminado desarrollando un pequeño script en Bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior. Específicamente para Bandit14, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior.
+Específicamente para los niveles 13-14, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior.
 
-Una vez descomprimido el archivo de Bandit12-13 llamado **content.gzip**, no hay necesidad de saber si el nuevo archivo está comprimido de nuevo y hacer el mismo proceso repetitivo.
+### Situación de uso
 
-El Script de Decompressor hace lo siguiente:
+Una vez descomprimido el archivo de Bandit13-14 llamado data, se debe cambiar su nombre a **content.gzip**. Despues del cambio de nombre no hay necesidad de saber si el nuevo archivo está comprimido de nuevo y hacer el mismo proceso repetitivo, esto es debido al script.
+
+El Script de `Decompressor` hace lo siguiente:
 1. Teniendo el archivo **content.gzip**, el script leerá el último argumento del archivo adentro del comprimido.
 2. Entrará en un bucle, siempre y cuando el último argumento sea también de tipo comprimido.
 3. De ser así, seguirá descomprimiéndose hasta que ya no quede un archivo de tipo comprimido.
-4. Decompressor sabra cuando el ultimo argumento no sea un archivo comprimido, asi que aplica un `/bin/cat` al archivo resultante.
-5. Decompressor ayuda a acceder al contenido mucho mas rapido que si lo hicieramos descomprimiendo archivo por archivo.
+4. `Decompressor` sabra cuando el ultimo argumento no sea un archivo comprimido, asi que aplica un `/bin/cat` al archivo resultante.
+5. `Decompressor` ayuda a acceder al contenido mucho mas rapido que si lo hicieramos descomprimiendo archivo por archivo.
 6. El Script hace uso de sentencias de selección (if, else).
 7. Usando `7z l **content.gzip**`, lo que haremos es listar el contenido del archivo sin extraerlo.
 8. El uso de' grep `"Name" -A 2`, significa que grep buscará un patron en el stdout del comando `7z l al archivo content.gzip` y lo mostrara en pantalla.
@@ -43,10 +52,9 @@ Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_de
 
 > Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos *grep*, *tail*, *awk* y sus parámetros:
 
-
 ```bash
 #!/bin/bash
-
+# Juan Garcia (aka liandd)
 name_decompressed=$(7z l content.gzip | grep "Name" -A 2 | tail -n 1 | awk 'NF{print $NF}')
 7z x  content.gzip > /dev/null 2>&1
 
@@ -62,7 +70,7 @@ while true; do
 done
 ```
 
-Para usar correctamente Decompressor, al estar en el bandit14, hay que cambiar el nombre del archivo a **content.gzip**, de esta forma funcionara sin problemas.
+Para usar correctamente `Decompressor`, al estar en el Bandit13-14, hay que cambiar el nombre del archivo a **content.gzip** como se mencionó anteriormente, de esta forma funcionara sin problemas.
 
 Para conseguir el **content.gzip**, hacemos lo siguiente:
 ```bash
@@ -80,16 +88,18 @@ liann@nk:~/bandit14$
 └──╼ $ ./decompressor content.gzip
 The password is .....
 ```
+### Conclusión
 
 El Script es compilado y funciona correctamente:
 
 <div style="text-align: center;">
   <img src="/assets/images/Bandit-Decompressor/result.png" alt="bandit" width="2000" oncontextmenu="return false;">
 </div>
+
 ---
 
-Esta publicacion ha sido creada como soporte en el aprendizaje de OverTheWire:
+Esta publicación ha sido creada como soporte en el aprendizaje de OverTheWire:
 
-[https://overthewire.org/wargames/bandit/](https://overthewire.org/wargames/bandit/)
+[Aprendizaje en Over The Wire, Wargames -> Bandit](https://overthewire.org/wargames/bandit/)
 
-Lian
+© Juan David Garcia Acevedo (aka liandd)

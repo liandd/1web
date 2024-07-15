@@ -13,6 +13,7 @@ categories:
 tags:
   - Eventos
   - Academico
+  - C++
 ---
 
 ## Programacion Competitiva.
@@ -43,7 +44,7 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 
 > La *Universidad Católica de Pereira* participó a través de la Facultad de Ciencias Básicas e Ingeniería en la **XXXVII Maratón Nacional de Programación ACIS/REDIS 2023**, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
 
-## Galeria fotografica
+### Galeria fotografica
 <div style="text-align: center;">
 <img src="/assets/images/ProgramacionCompetitiva/ev.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 </div>
@@ -65,7 +66,7 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 
 [Link de la publicación hecho por la Universidad Catolica de Pereria!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
-## Logros.
+### Logros.
 
 - *Dominio del Lenguaje*: Se ha alcanzado un alto nivel de dominio en C++, comprendiendo conceptos avanzados manipulación de cadenas, estructuras de datos complejas y el uso eficiente de la memoria.
 
@@ -77,17 +78,17 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 
 ## Lecciones Aprendidas.
 
-1. **Optimización de Código**: La importancia de la optimización del código para mejorar la eficiencia y reducir los tiempos de ejecución se ha vuelto evidente. Se ha aprendido a analizar y mejorar la complejidad temporal y espacial.
+1. *Optimización de Código*: La importancia de la optimización del código para mejorar la eficiencia y reducir los tiempos de ejecución se ha vuelto evidente. Se ha aprendido a analizar y mejorar la complejidad temporal y espacial.
 
-2. **Estrategias de Algoritmos**: La comprensión de estrategias de algoritmos avanzados, se ha vuelto más sólida. Se ha aprendido a identificar el enfoque correcto para diferentes tipos de problemas.
+2. *Estrategias de Algoritmos*: La comprensión de estrategias de algoritmos avanzados, se ha vuelto más sólida. Se ha aprendido a identificar el enfoque correcto para diferentes tipos de problemas.
 
-3. **Manejo de Estrés**: La participación en competiciones en tiempo real ha ayudado a desarrollar habilidades para manejar el estrés y la presión temporal.
+3. *Manejo de Estrés*: La participación en competiciones en tiempo real ha ayudado a desarrollar habilidades para manejar el estrés y la presión temporal.
 
-## Metas Futuras.
+### Metas Futuras.
 
 Participación en Competencias Avanzadas: Aspirar a participar en competiciones más avanzadas y desafiantes para seguir mejorando las habilidades y enfrentar problemas de mayor complejidad.
 
-## Conclusión.
+### Conclusión.
 
 El primer año de experiencia en programación competitiva ha sido gratificante y ha proporcionado una base sólida en C++ y algoritmos. El compromiso continuo con la práctica y la mejora constante garantizará un progreso mejor.
 
@@ -95,4 +96,4 @@ El primer año de experiencia en programación competitiva ha sido gratificante 
 
 Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
 
-Juan David Garcia Acevedo 
+© Juan David Garcia Acevedo (aka liandd)

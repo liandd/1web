@@ -14,3 +14,9 @@ tags:
   - Bash
   - Scripting
 ---
+
+---
+
+Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
+
+© Juan David Garcia Acevedo (aka liandd)
