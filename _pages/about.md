@@ -4,7 +4,7 @@ layout: single
 title: "Información Sobre Mi"
 date: 2023-02-12
 classes: wide
-description: "Informacion sobre Mi"
+description: "Información sobre Mi"
 author_profile: true
 ---
 
@@ -19,7 +19,7 @@ author_profile: true
 
 🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 
-## UTP Open Contest 2023 Colombia.
+### UTP Open Contest 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">November 25, 2023</time>&emsp;
 
 🗳️ Durante el día 25 de noviembre hice mi participación en `UTP Open Contest 2023` en la *Universidad Tecnológica de Pereira*.
@@ -30,16 +30,20 @@ author_profile: true
 
 [Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/semillero-coders-obtiene-primer-puesto-en-utp-open-2023/)
 
-## Toma de Posesión en el Concejo Académico.
+---
+### Toma de Posesión en el Concejo Académico.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">June 6, 2023</time>&emsp;
 
 🗳️ Durante mi formación gané las elecciones para el `Concejo Estudiantil Académico` de mi universidad.
 
 > Para el Consejo Académico, los representantes son `Nicolás Ceballos Brito (principal)` y `Juan David García Acevedo (suplente)` pertenecientes al programa Ingeniería de Sistemas y Telecomunicaciones
 
+<img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/06/RE_1-1-1024x768.webp" alt="puesto" oncontextmenu="return false;" width="1800">
+
 [Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
 
-## XXXVII Maratón Nacional de Programación 2023 Colombia.
+---
+### XXXVII Maratón Nacional de Programación 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">September 6, 2023</time>&emsp;
 
 🗳️ Durante el día 2 de septiembre hice mi participación de `XXXVII Maratón Nacional de Programación` en la ciudad de Manizales.
@@ -51,11 +55,14 @@ author_profile: true
 [Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
 
-## Participaciones.
-- ACMESKILLS 2019
+### Participaciones.
+- UTP Open 2023 Colombia.
+- XXXVII Maratón Nacional de Programación 2023 Colombia.
+- ACMESKILLS 2019.
+
 > ACMESKILLS es un evento académico articulado con la media y el *SENA* que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
 
-## Certificaciones y Títulos.
+### Certificaciones y Títulos.
 Estas son las certificaciones que actualmente dispongo:
 - Motivación y Liderazgo (Servicio Nacional De Aprendizaje - SENA)
 
@@ -75,7 +82,7 @@ Estas son las certificaciones que actualmente dispongo:
 
 - Hacking Ético a PC's con Malware [(Udemy)](https://www.udemy.com/certificate/UC-84db90c1-0812-4485-b6bd-d42ae2db3551/)
 
-------
+---
 Esta publicación ha sido creada como soporte en mi formación académica y crecimiento profesional.
 
 © Juan David Garcia Acevedo (aka liandd) 
