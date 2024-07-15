@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Bandit Decompressor
-excerpt: "Hace un tiempo he venido obteniendo soltura en Bash, y para practicar un poco scripting con bandit he terminado desarrollando un pequeño script en bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior, específicamente para bandit14, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior. Una vez descomprimido el archivo de bandit12-13 llamado **content.gzip**, por lo que no hay necesidad de saber si el nuevo archivo esta comprimido de nuevo y hacer el mismo proceso repetitivo."
+excerpt: "Hace un tiempo he venido obteniendo soltura en Bash. Para practicar un poco de scripting con Bandit, he terminado desarrollando un pequeño script en Bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior. Específicamente para Bandit14, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior."
 date: 2023-02-12
 classes: wide
 header:
@@ -22,7 +22,9 @@ tags:
   <img src="/assets/images/Bandit-Decompressor/decompressor.png" alt="bandit" width="2000" oncontextmenu="return false;">
 </div>
 
-Hace un tiempo he venido obteniendo soltura en Bash, y para practicar un poco scripting con bandit he terminado desarrollando un pequeño script en bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior, específicamente para bandit12, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior. Una vez descomprimido el archivo de bandit14 llamado **content.gzip**, por lo que no hay necesidad de saber si el nuevo archivo esta comprimido de nuevo y hacer el mismo proceso repetitivo.
+Hace un tiempo he venido obteniendo soltura en Bash. Para practicar un poco de scripting con Bandit, he terminado desarrollando un pequeño script en Bash para descomprimir un archivo que tiene una cantidad desconocida de archivos comprimidos en su interior. Específicamente para Bandit14, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior.
+
+Una vez descomprimido el archivo de Bandit12-13 llamado **content.gzip**, no hay necesidad de saber si el nuevo archivo está comprimido de nuevo y hacer el mismo proceso repetitivo.
 
 El Script de Decompressor hace lo siguiente:
 1. Teniendo el archivo **content.gzip**, el script leerá el último argumento del archivo adentro del comprimido.
@@ -39,7 +41,7 @@ Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_de
 
 ### Codigo del Script
 
-> Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos grep, tail, awk y sus parámetros:
+> Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos *grep*, *tail*, *awk* y sus parámetros:
 
 
 ```bash
