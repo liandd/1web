@@ -44,20 +44,24 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 > La *Universidad Católica de Pereira* participó a través de la Facultad de Ciencias Básicas e Ingeniería en la **XXXVII Maratón Nacional de Programación ACIS/REDIS 2023**, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
 
 ## Galeria fotografica
-
-<img src="/assets/images/ProgramacionCompetitiva/ev.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
-
 <div style="text-align: center;">
-  <img src="/assets/images/ProgramacionCompetitiva/ev4.jpg" alt="Maraton" width="1800" oncontextmenu="return false;">
+<img src="/assets/images/ProgramacionCompetitiva/ev.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 </div>
-
+<div style="text-align: center;">
+<img src="/assets/images/ProgramacionCompetitiva/ev4.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
+</div>
+<div style="text-align: center;">
 <img src="/assets/images/ProgramacionCompetitiva/ev1.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
-
+</div>
+<div style="text-align: center;">
 <img src="/assets/images/ProgramacionCompetitiva/ev2.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
-
+</div>
+<div style="text-align: center;">
 <img src="/assets/images/ProgramacionCompetitiva/ev3.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
-
+</div>
+<div style="text-align: center;">
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/09/20230902_121416-1536x865.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
+</div>
 
 [Link de la publicación hecho por la Universidad Catolica de Pereria!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
