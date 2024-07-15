@@ -13,7 +13,7 @@ author_profile: true
 
 🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la *Universidad Católica De Pereira*.
 
-🎓 En estos momentos en mi etapa universitaria hago parte del `Grupo de Investigación` y `Semillero de Programación Competitiva` de mi universidad, y obtuve la oportunidad de formar parte de igual forma del `Semillero de Programación Competitiva` **In Silico** de la *Universidad Tecnológica De Pereira*, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional, en las cuales nos hemos enfrentado a otros competidores invitados de universidades de México y Argentina.
+🎓 En estos momentos en mi etapa universitaria hago parte del `Grupo de Investigación` y `Semillero de Programación Competitiva` de mi universidad, y obtuve la oportunidad de formar parte de igual forma del `Semillero de Programación Competitiva` *In Silico* de la *Universidad Tecnológica De Pereira*, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional, en las cuales nos hemos enfrentado a otros competidores invitados de universidades de México y Argentina.
 
 📚 Mi enfoque personal se centra en la Seguridad Informática, CTFs y aspiro a conseguir diferentes certificaciones del sector como **eJPT**, **eWPT**, **eCPPT**, **OSCP**. Y las certificaciones de **CISCO** para redes de datos.
 
@@ -22,13 +22,13 @@ author_profile: true
 ## UTP Open Contest 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">November 25, 2023</time>&emsp;
 
-🗳️ Durante el día 25 de noviembre hice mi participación de `UTP Open Contest 2023` en la *Universidad Tecnológica de Pereira*.
+🗳️ Durante el día 25 de noviembre hice mi participación en `UTP Open Contest 2023` en la *Universidad Tecnológica de Pereira*.
 
 > El semillero de investigación Coders obtuvo el **primer puesto** en la Maratón interna de Programación `UTP Open` que se desarrolló en las instalaciones de la *Universidad Tecnológica de Pereira* el sábado 25 de noviembre de 2023. Los equipos participantes estuvieron conformados por los estudiantes Mario Esteban Marín, Brahian Stiven Gil Arias, Miguel Ángel Gálvez Quintero, Camilo Castañeda Yepes, Juan David García Acevedo, David Duque Vallde Ruten y Laura Echeverry Toro del programa de Ingeniería de Sistemas y Telecomunicaciones, además el estudiante Juan Esteban López López del programa de Tecnología en Desarrollo de Software.
 
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/11/Foto1-1536x1152.jpg" alt="utpopen" oncontextmenu="return false;" width="1800">
 
-[https://www.ucp.edu.co/noticias/semillero-coders-obtiene-primer-puesto-en-utp-open-2023/](https://www.ucp.edu.co/noticias/semillero-coders-obtiene-primer-puesto-en-utp-open-2023/)
+[Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/semillero-coders-obtiene-primer-puesto-en-utp-open-2023/)
 
 ## Toma de Posesión en el Concejo Académico.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">June 6, 2023</time>&emsp;
@@ -37,7 +37,7 @@ author_profile: true
 
 > Para el Consejo Académico, los representantes son `Nicolás Ceballos Brito (principal)` y `Juan David García Acevedo (suplente)` pertenecientes al programa Ingeniería de Sistemas y Telecomunicaciones
 
-[https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
+[Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/asumen-nuevos-representantes-estudiantiles/)
 
 ## XXXVII Maratón Nacional de Programación 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">September 6, 2023</time>&emsp;
@@ -48,7 +48,7 @@ author_profile: true
 
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/09/20230902_121416-1536x865.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 
-[https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
+[Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
 
 ## Participaciones.
