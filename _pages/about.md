@@ -15,10 +15,11 @@ author_profile: true
 
 🎓 En estos momentos en mi etapa universitaria hago parte del `Grupo de Investigación` y `Semillero de Programación Competitiva` de mi universidad, y obtuve la oportunidad de formar parte de igual forma del `Semillero de Programación Competitiva` *In Silico* de la *Universidad Tecnológica De Pereira*, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional, en las cuales nos hemos enfrentado a otros competidores invitados de universidades de México y Argentina.
 
-📚 Mi enfoque personal se centra en la Seguridad Informática, CTFs y aspiro a conseguir diferentes certificaciones del sector como **eJPT**, **eWPT**, **eCPPT**, **OSCP**. Y las certificaciones de **CISCO** para redes de datos.
+📚 Mi enfoque personal se centra en la Seguridad Informática, CTFs y aspiro a conseguir diferentes certificaciones del sector como *eJPT*, *eWPT*, *eCPPT*, *OSCP*. Y las certificaciones de *CISCO* para redes de datos.
 
 🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 
+---
 ### UTP Open Contest 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">November 25, 2023</time>&emsp;
 
@@ -54,7 +55,7 @@ author_profile: true
 
 [Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
-
+---
 ### Participaciones.
 - UTP Open 2023 Colombia.
 - XXXVII Maratón Nacional de Programación 2023 Colombia.
@@ -62,6 +63,7 @@ author_profile: true
 
 > ACMESKILLS es un evento académico articulado con la media y el *SENA* que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
 
+---
 ### Certificaciones y Títulos.
 Estas son las certificaciones que actualmente dispongo:
 - Motivación y Liderazgo (Servicio Nacional De Aprendizaje - SENA)
