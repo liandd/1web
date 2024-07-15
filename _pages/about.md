@@ -11,6 +11,7 @@ author_profile: true
 ## Formación Profesional.
 <img src="/assets/images/about/uni.png" alt="Universidad" oncontextmenu="return false;" width="1800">
 
+---
 🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la *Universidad Católica De Pereira*.
 
 🎓 En estos momentos en mi etapa universitaria hago parte del `Grupo de Investigación` y `Semillero de Programación Competitiva` de mi universidad, y obtuve la oportunidad de formar parte de igual forma del `Semillero de Programación Competitiva` *In Silico* de la *Universidad Tecnológica De Pereira*, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional, en las cuales nos hemos enfrentado a otros competidores invitados de universidades de México y Argentina.

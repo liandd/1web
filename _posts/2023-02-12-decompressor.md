@@ -29,6 +29,7 @@ La plataforma OTW presenta Bandit para el aprendizaje de Bash en forma de nivele
   <img src="/assets/images/Bandit-Decompressor/decompressor.png" alt="bandit" width="1800" oncontextmenu="return false;">
 </div>
 
+---
 Específicamente para los niveles 13-14, el script es útil porque no tienes que estar mirando y descomprimiendo uno por uno los archivos que tiene el archivo en su interior.
 
 ### Situación de uso
