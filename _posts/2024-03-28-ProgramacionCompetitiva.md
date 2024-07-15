@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Programacion Competitiva 1er año 
+title: Programación Competitiva 1er año 
 excerpt: "Mi recorrido dentro de las RPC (Red de Programación Competitiva) 1 año"
 date: 2024-03-28
 classes: wide
@@ -16,7 +16,7 @@ tags:
   - C++
 ---
 
-## Programacion Competitiva.
+## Programación Competitiva.
 
 Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 
@@ -29,22 +29,22 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 ### UTP Open Contest 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">November 25, 2023</time>&emsp;
 
-🗳️ Durante el dia 25 de noviembre hice mi participación en `UTP Open Contest 2023` en la *Universidad Tecnologica de Pereira*.
+🗳️ Durante el día 25 de noviembre hice mi participación en `UTP Open Contest 2023` en la *Universidad Tecnológica de Pereira*.
 
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/11/Foto1-1536x1152.jpg" alt="utpopen" oncontextmenu="return false;" width="1800">
 
-[Link de la publicación hecho por la Universidad Catolica de Pereria!](https://www.ucp.edu.co/noticias/semillero-coders-obtiene-primer-puesto-en-utp-open-2023/)
+[Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/semillero-coders-obtiene-primer-puesto-en-utp-open-2023/)
 
 ---
 
 ### XXXVII Maratón Nacional de Programación 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">September 6, 2023</time>&emsp;
 
-🗳️ Durante el dia 2 de septiembre hice mi participación de `XXXVII Maratón Nacional de Programación` en la ciudad de Manizales.
+🗳️ Durante el día 2 de septiembre hice mi participación de `XXXVII Maratón Nacional de Programación` en la ciudad de Manizales.
 
 > La *Universidad Católica de Pereira* participó a través de la Facultad de Ciencias Básicas e Ingeniería en la **XXXVII Maratón Nacional de Programación ACIS/REDIS 2023**, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
 
-### Galeria fotografica
+### Galería fotográfica
 <div style="text-align: center;">
 <img src="/assets/images/ProgramacionCompetitiva/ev.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 </div>
@@ -64,7 +64,7 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/09/20230902_121416-1536x865.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 </div>
 
-[Link de la publicación hecho por la Universidad Catolica de Pereria!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
+[Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
 ### Logros.
 
@@ -94,6 +94,6 @@ El primer año de experiencia en programación competitiva ha sido gratificante 
 
 ---
 
-Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
+Esta publicación ha sido creada como soporte en mi formación académica y crecimiento profesional.
 
 © Juan David Garcia Acevedo (aka liandd)

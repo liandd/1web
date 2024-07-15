@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Calcular Subnet - Script
-excerpt: "En esta publicacion se habla sobre un script en Bash para calcular subnetting, (Total Host, Network ID, Broadcast IP)"
+excerpt: "En esta publicación se habla sobre un script en Bash para calcular subnetting, (Total Host, Network ID, Broadcast IP)"
 date: 2023-11-30
 classes: wide
 header:
@@ -84,7 +84,7 @@ Este comando calculará la información de red para la dirección IP **192.168.1
 
 ### Conclusión
 
-El script de Bash ha sido mejorado y ajustado para proporcionar resultados más precisos y evitar posibles errores. Se recomienda su uso para cálculos de red a traves de comandos en una terminal bash.
+El script de Bash ha sido mejorado y ajustado para proporcionar resultados más precisos y evitar posibles errores. Se recomienda su uso para cálculos de red a través de comandos en una terminal Bash.
 
 ![image](https://github.com/liandd/Calcular_SubNett/assets/114973749/1c3798de-0d83-4995-bb86-d0e0a32f527d)
 
@@ -95,7 +95,7 @@ El script de Bash ha sido mejorado y ajustado para proporcionar resultados más 
 
 ---
 
-Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
+Esta publicación ha sido creada como soporte en mi formación académica y crecimiento profesional.
 
 © Juan David Garcia Acevedo (aka liandd)
 

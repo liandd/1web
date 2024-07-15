@@ -33,22 +33,22 @@ Específicamente para los niveles 13-14, el script es útil porque no tienes que
 
 ### Situación de uso
 
-Una vez descomprimido el archivo de Bandit13-14 llamado data, se debe cambiar su nombre a **content.gzip**. Despues del cambio de nombre no hay necesidad de saber si el nuevo archivo está comprimido de nuevo y hacer el mismo proceso repetitivo, esto es debido al script.
+Una vez descomprimido el archivo de Bandit13-14 llamado data, se debe cambiar su nombre a **content.gzip**. Después del cambio de nombre no hay necesidad de saber si el nuevo archivo está comprimido de nuevo y hacer el mismo proceso repetitivo, esto es debido al script.
 
 El Script de `Decompressor` hace lo siguiente:
 1. Teniendo el archivo **content.gzip**, el script leerá el último argumento del archivo adentro del comprimido.
 2. Entrará en un bucle, siempre y cuando el último argumento sea también de tipo comprimido.
 3. De ser así, seguirá descomprimiéndose hasta que ya no quede un archivo de tipo comprimido.
-4. `Decompressor` sabra cuando el ultimo argumento no sea un archivo comprimido, asi que aplica un `/bin/cat` al archivo resultante.
-5. `Decompressor` ayuda a acceder al contenido mucho mas rapido que si lo hicieramos descomprimiendo archivo por archivo.
+4. `Decompressor` sabrá cuando el ultimo argumento no sea un archivo comprimido, así que aplica un `/bin/cat` al archivo resultante.
+5. `Decompressor` ayuda a acceder al contenido mucho mas rápido que si lo hiciéramos descomprimiendo archivo por archivo.
 6. El Script hace uso de sentencias de selección (if, else).
 7. Usando `7z l **content.gzip**`, lo que haremos es listar el contenido del archivo sin extraerlo.
-8. El uso de' grep `"Name" -A 2`, significa que grep buscará un patron en el stdout del comando `7z l al archivo content.gzip` y lo mostrara en pantalla.
-9. Al hacer uso de `tail -n 1`, grep solo mostrara la ultima coincidencia con el patron "Name".
+8. El uso de' grep `"Name" -A 2`, significa que grep buscará un patrón en el stdout del comando `7z l al archivo content.gzip` y lo mostrara en pantalla.
+9. Al hacer uso de `tail -n 1`, grep solo mostrara la ultima coincidencia con el patrón "Name".
 10. El comando `awk 'NF{print NF}'` Esto nos permite obtener únicamente el nombre del archivo descomprimido.
 Finalmente, el nombre del archivo descomprimido se asigna a la variable `name_decompressed`.
 
-### Codigo del Script
+### Código del Script
 
 > Para mayor entendimiento del script y lo que hace, recomiendo probar un poco experimentar con los comandos *grep*, *tail*, *awk* y sus parámetros:
 

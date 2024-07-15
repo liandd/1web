@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Estudiando un scanner TCP
-excerpt: "En esta publicacion se habla sobre un scanner sencillo en bash para el descubrimiento de puertos abiertos en caso de no contar con la herramienta nmap."
+excerpt: "En esta publicación se habla sobre un scanner sencillo en Bash para el descubrimiento de puertos abiertos en caso de no contar con la herramienta nmap."
 date: 2023-11-19
 classes: wide
 header:
@@ -17,6 +17,6 @@ tags:
 
 ---
 
-Esta publicación ha sido creada como soporte en mi formación academica y crecimiento profesional.
+Esta publicación ha sido creada como soporte en mi formación académica y crecimiento profesional.
 
 © Juan David Garcia Acevedo (aka liandd)
