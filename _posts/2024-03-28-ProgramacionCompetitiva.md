@@ -65,7 +65,7 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 
 [Link de la publicación hecho por la Universidad Catolica de Pereria!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
-# Logros.
+## Logros.
 
 - *Dominio del Lenguaje*: Se ha alcanzado un alto nivel de dominio en C++, comprendiendo conceptos avanzados manipulación de cadenas, estructuras de datos complejas y el uso eficiente de la memoria.
 
@@ -83,7 +83,7 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 
 3. **Manejo de Estrés**: La participación en competiciones en tiempo real ha ayudado a desarrollar habilidades para manejar el estrés y la presión temporal.
 
-# Metas Futuras.
+## Metas Futuras.
 
 Participación en Competencias Avanzadas: Aspirar a participar en competiciones más avanzadas y desafiantes para seguir mejorando las habilidades y enfrentar problemas de mayor complejidad.
 
