@@ -63,7 +63,7 @@ Mi recorrido dentro de las `RPC` (*Red de Programación Competitiva*)
 <div style="text-align: center;">
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/09/20230902_121416-1536x865.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 </div>
-
+<br>
 Foto de Coders de la Universidad Católica de Pereira.
 
 [Link de la publicación hecho por la Universidad Católica de Pereira!](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
