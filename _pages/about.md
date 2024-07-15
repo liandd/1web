@@ -4,26 +4,25 @@ layout: single
 title: "Información Sobre Mi"
 date: 2023-02-12
 classes: wide
-description: "Informacion sobre Mi."
+description: "Informacion sobre Mi"
 author_profile: true
 ---
 
 ## Formación Profesional.
-
 <img src="/assets/images/about/uni.png" alt="Universidad" oncontextmenu="return false;" width="1800">
 
-🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la Universidad Católica De Pereira.
+🌱 Actualmente estudiante de Ingeniería en Sistemas y Telecomunicaciones en la Facultad de Ingeniería de la *Universidad Católica De Pereira*.
 
-🎓 En estos momentos en mi etapa universitaria hago parte del Grupo de Investigación y Semillero de Programación Competitiva de mi universidad, y obtuve la oportunidad de formar parte de igual forma del Semillero de Programación Competitiva In Silicon Valley de la Universidad Tecnológica De Pereira, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional con invitados de las universidades de México y Argentina.
+🎓 En estos momentos en mi etapa universitaria hago parte del `Grupo de Investigación` y `Semillero de Programación Competitiva` de mi universidad, y obtuve la oportunidad de formar parte de igual forma del `Semillero de Programación Competitiva` **In Silico** de la *Universidad Tecnológica De Pereira*, donde he desarrollado mis habilidades con la lógica de programación, trabajo en equipo y la capacidad de resolver problemas. He participado en diversas competencias de índole nacional, en las cuales nos hemos enfrentado a otros competidores invitados de universidades de México y Argentina.
 
-📚 Mi enfoque personal se centra en la Seguridad Informatica, CTFs y aspiro a conseguir diferentes certificaciones del sector como **eJPT**, **eWPT** , **eCPPT** , **OSCP**.
+📚 Mi enfoque personal se centra en la Seguridad Informatica, CTFs y aspiro a conseguir diferentes certificaciones del sector como **eJPT**, **eWPT**, **eCPPT**, **OSCP**. Y las certificaciones de **CISCO** para redes de datos.
 
 🎯 Mi objetivo es desarrollar mi carrera profesional como Ingeniero en una empresa que me permita aplicar mis conocimientos para así seguir creciendo tanto personal como profesionalmente logrando los mejores resultados posibles.
 
 ## UTP Open Contest 2023 Colombia.
 🗓️ <time datetime="2023-02-12T00:00:00+00:00">November 25, 2023</time>&emsp;
 
-🗳️ Durante el dia 25 de noviembre hice mi participación de `UTP Open Contest 2023` en la universidad Tecnologica de Pereira.
+🗳️ Durante el dia 25 de noviembre hice mi participación de `UTP Open Contest 2023` en la *Universidad Tecnologica de Pereira*.
 
 > El semillero de investigación Coders obtuvo el **primer puesto** en la Maratón interna de Programación `UTP Open` que se desarrolló en las instalaciones de la *Universidad Tecnológica de Pereira* el sábado 25 de noviembre de 2023. Los equipos participantes estuvieron conformados por los estudiantes Mario Esteban Marín, Brahian Stiven Gil Arias, Miguel Ángel Gálvez Quintero, Camilo Castañeda Yepes, Juan David García Acevedo, David Duque Vallde Ruten y Laura Echeverry Toro del programa de Ingeniería de Sistemas y Telecomunicaciones, además el estudiante Juan Esteban López López del programa de Tecnología en Desarrollo de Software.
 
@@ -45,19 +44,18 @@ author_profile: true
 
 🗳️ Durante el dia 2 de septiembre hice mi participación de `XXXVII Maratón Nacional de Programación` en la ciudad de Manizales.
 
-> La Universidad Católica de Pereira participó a través de la Facultad de Ciencias Básicas e Ingeniería en la XXXVII Maratón Nacional de Programación ACIS/REDIS 2023, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
+> La *Universidad Católica de Pereira* participó a través de la Facultad de Ciencias Básicas e Ingeniería en la **XXXVII Maratón Nacional de Programación ACIS/REDIS 2023**, donde se enfrentaron 108 equipos de distintas universidades de Colombia. La competencia que se llevó a cabo el sábado 2 de septiembre de 2023 en la ciudad de Manizales.
 
 <img src="https://www.ucp.edu.co/portal/wp-content/uploads/2023/09/20230902_121416-1536x865.jpg" alt="Maraton" oncontextmenu="return false;" width="1800">
 
 [https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/](https://www.ucp.edu.co/noticias/los-programas-ist-y-tds-participan-en-la-xxxvii-maraton-nacional-de-programacion/)
 
 
-## Participaciones 
+## Participaciones.
 - ACMESKILLS 2019
-> ACMESKILLS es un evento académico articulado con la media y el SENA que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
+> ACMESKILLS es un evento académico articulado con la media y el *SENA* que gira entorno al reconocimiento de las destrezas y habilidades adquiridas por los aprendices de los grados 11 matriculados en distintos programas técnicos.
 
-## Certificaciones y Títulos
-
+## Certificaciones y Títulos.
 Estas son las certificaciones que actualmente dispongo:
 - Motivacion y Liderazgo (Servicio Nacional De Aprendizaje - SENA)
 
